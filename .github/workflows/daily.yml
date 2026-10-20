@@ -1,0 +1,78 @@
+name: Daily internship monitor and Pages
+run-name: Internship monitor · ${{ github.event_name }}
+on:
+  schedule:
+    - cron: '0 21 * * *' # UTC 21:00 = next day 05:00 Asia/Shanghai
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ['*.py', 'config.json', 'requirements.txt', '.github/workflows/daily.yml']
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: internship-monitor
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    outputs:
+      healthy: ${{ steps.health.outputs.healthy }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: pip install -r requirements.txt
+      - name: Verify state transitions and history preservation
+        run: python -m unittest discover -s tests -v
+      - name: Discover, verify, append history and render
+        run: python tracker.py
+      - name: Commit durable registry and all snapshots
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add data docs
+          if ! git diff --cached --quiet; then
+            git commit -m "monitor: append $(TZ=Asia/Shanghai date +'%Y-%m-%d %H:%M') CST snapshot"
+            git push origin HEAD:main
+          fi
+      - name: Record source health
+        id: health
+        run: |
+          python - <<'PY'
+          import json, os
+          from collections import Counter
+          d = json.load(open('data/latest.json'))
+          c = Counter(j['status'] for j in d['jobs'])
+          good = sum(s['ok'] for s in d['sources'])
+          with open(os.environ['GITHUB_OUTPUT'], 'a') as f:
+              f.write(f'healthy={str(good > 0).lower()}\n')
+          with open(os.environ['GITHUB_STEP_SUMMARY'], 'a') as f:
+              f.write(f"## Internship monitor\nRun: {d['id']}\n\nCounts: {dict(c)}\n\nHealthy sources: {good}/{len(d['sources'])}\n\nHistory was committed before deployment.\n")
+          PY
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: docs
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy the updated page and history
+        id: deployment
+        uses: actions/deploy-pages@v4
+      - name: Report a complete source outage after publishing its warning
+        if: needs.update.outputs.healthy != 'true'
+        run: |
+          echo 'All discovery sources failed; uncertainty and history were published. See source health.'
+          exit 1

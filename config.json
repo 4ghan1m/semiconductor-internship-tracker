@@ -1,0 +1,21 @@
+{
+  "workday": [
+    {"id":"amat","company":"应用材料 Applied Materials","host":"amat.wd1.myworkdayjobs.com","tenant":"amat","board":"External"},
+    {"id":"kla","company":"科磊 KLA","host":"kla.wd1.myworkdayjobs.com","tenant":"kla","board":"Search"},
+    {"id":"intel","company":"英特尔 Intel","host":"intel.wd1.myworkdayjobs.com","tenant":"intel","board":"External"},
+    {"id":"nxp","company":"恩智浦 NXP","host":"nxp.wd3.myworkdayjobs.com","tenant":"nxp","board":"careers"}
+  ],
+  "search_queries": [
+    "北京 半导体 材料 实习生 招聘",
+    "北京 薄膜 工艺 表征 实习生 招聘",
+    "北方华创 中芯国际 燕东微 实习生",
+    "中微公司 拓荆科技 盛美上海 实习 材料",
+    "半导体 材料 硕士 实习 site:shixiseng.com/intern",
+    "Beijing semiconductor materials process internship"
+  ],
+  "watch_links": [
+    {"id":"hanxu-spin","company":"寒序科技","title":"自旋电子学材料与器件实习生","location":"北京海淀","url":"https://www.shixiseng.com/intern/inn_cp2b76aql4xb","note":"搜索发现的北京材料方向线索；必须实时读取职位详情后才能确认开放。"}
+  ],
+  "official_domains": ["naura.com","smics.com","amec-inc.com","piotech.com","acmrcsh.com","ymtc.com","cxmt.com","yandongmicro.com","asml.com","lamresearch.com","ti.com","infineon.com","nexperia.com","jobs.boe.com"],
+  "search_domains": ["shixiseng.com","ncss.cn","edu.cn"]
+}
