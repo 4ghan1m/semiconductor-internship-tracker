@@ -23,7 +23,7 @@ CST = timezone(timedelta(hours=8))
 LABELS = {"new":"新发现开放", "open":"仍在招聘", "closed":"已关闭", "unverified":"待核实"}
 INTERN = re.compile(r"\bintern(?:ship)?s?\b|实习", re.I)
 NONTECH = re.compile(r"finance|accountant|purchasing|human.resources|\bHR\b|legal|strategy|财务|会计|采购|人力|法务|战略",re.I)
-MATERIAL = re.compile(r"材料|薄膜|刻蚀|沉积|表征|封装|失效分析|工艺|制程|化学|物理|晶圆|\bmaterials?\b|thin.film|\betch\w*|deposition|characteri[sz]|packaging|failure.analysis|\bprocess\b|chemistry|physics|wafer|metrology", re.I)
+MATERIAL = re.compile(r"材料|薄膜|镀膜|刻蚀|沉积|表征|封装|失效分析|工艺|制程|化学|物理|晶圆|\bmaterials?\b|thin.film|\bcoating\b|\betch\w*|deposition|characteri[sz]|packaging|failure.analysis|\bprocess\b|chemistry|physics|wafer|metrology", re.I)
 CHINA = re.compile(r"China|\bCHN\b|中国|北京|上海|天津|无锡|苏州|西安|成都|深圳|杭州|武汉|合肥|大连|Beijing|Shanghai|Tianjin|Wuxi|Suzhou|Xi.an|Chengdu|Shenzhen|Hangzhou|Wuhan|Hefei|Dalian", re.I)
 SEMI = re.compile(r"半导体|芯片|晶圆|集成电路|semiconductor|wafer|microelectronic|自旋电子|MRAM|薄膜|刻蚀", re.I)
 CLOSED = re.compile(r"职位[已]?关闭|招聘[已]?结束|停止招聘|已下线|该职位已结束|不再接受[申请投递]|no longer (?:available|accepting applications)|job (?:has been|is) (?:filled|closed)|position (?:has been|is) (?:filled|closed)", re.I)
@@ -251,6 +251,65 @@ def collect_search(config, at):
     return jobs,[health for _,health in results]
 
 
+def focuslight_detail(job, page, at):
+    job=copy.deepcopy(job)
+    soup=BeautifulSoup(page,'html.parser')
+    heading=soup.find('h1'); details=soup.select_one('.fyxwxqbjq')
+    application=soup.select_one('.fyxwbt')
+    if heading and heading.get_text(' ',strip=True)==job['title'] and details:
+        desc=details.get_text(' ',strip=True)
+        job['description']=desc[:14000]; job['conditions']=qualification_excerpt(desc)
+        mail=application.find('a',href=re.compile(r'^mailto:[^@\s]+@focuslight\.com$',re.I)) if application else None
+        closed=CLOSED.search(desc)
+        if closed:
+            job['evidence']=evidence('closed',job['url'],desc[max(0,closed.start()-40):closed.end()+80],'explicit-closed-detail',at)
+        elif mail and '申请职位' in application.get_text():
+            job['evidence']=evidence('open',job['url'],'本轮官方招聘列表仍列出此职位；详情标题相符，存在该职位的官方申请指引。'+qualification_excerpt(desc),'official-list-and-detail',at)
+        else:
+            job['evidence']=evidence('unverified',job['url'],'列表有记录，但职位详情的申请方式未核实','official-list-detail',at)
+    else:
+        job['evidence']=evidence('unverified',job['url'],'列表与详情结构或标题无法对应','official-list-detail',at)
+    return job
+
+
+def collect_focuslight(at):
+    url='https://www.focuslight.com/career/vacancy/?lang=cn'; scanned=0
+    try:
+        s=session(); r=s.get(url,timeout=25); r.raise_for_status()
+        first=BeautifulSoup(r.content,'html.parser')
+        page_numbers=[int(dict(parse_qsl(urlparse(a['href']).query)).get('pagenum','1')) for a in first.find_all('a',href=True) if 'pagenum=' in a['href']]
+        last=max(page_numbers,default=1)
+        if last>15:raise ValueError('招聘列表分页范围变化')
+        pages=[first]
+        for n in range(2,last+1):
+            r=s.get('https://www.focuslight.com/career/vacancy/',params={'lang':'cn','pagenum':n},timeout=25);r.raise_for_status();pages.append(BeautifulSoup(r.content,'html.parser'))
+        candidates={}
+        for page in pages:
+            for a in page.find_all('a',href=True):
+                label=a.get_text(' ',strip=True)
+                if '工作类别' not in label or 'post_id=' not in a['href']:continue
+                scanned+=1
+                title=label.split('工作类别')[0].strip()
+                if not INTERN.search(title):continue
+                absolute=urljoin(url,a['href']); p=urlparse(absolute)
+                if p.hostname!='www.focuslight.com':continue
+                params=dict(parse_qsl(p.query));pid=params.get('post_id')
+                if not pid or not pid.isdigit():continue
+                params['lang']='cn'; absolute=urlunparse((p.scheme,p.netloc,p.path,'',urlencode(params),''))
+                location=re.search(r'工作地点\s*(.*?)\s*发布日期',label)
+                candidates[pid]={'id':'focuslight:'+pid,'source':'focuslight','company':'炬光科技 Focuslight','title':title,'location':location.group(1) if location else '待核实','url':absolute}
+        jobs=[]
+        for job in candidates.values():
+            try:
+                r=s.get(job['url'],timeout=25);r.raise_for_status()
+                jobs.append(focuslight_detail(job,r.content,at))
+            except Exception as exc:
+                job['evidence']=evidence('unverified',job['url'],type(exc).__name__+'：详情读取失败','official-list-detail',at);jobs.append(job)
+        return jobs,{'id':'focuslight','source':'炬光科技 Focuslight','url':url,'ok':True,'scanned':scanned,'candidates':len(jobs),'message':'官方中文招聘列表逐页扫描，并核对职位详情与申请方式'}
+    except Exception as exc:
+        return [],{'id':'focuslight','source':'炬光科技 Focuslight','url':url,'ok':False,'scanned':scanned,'candidates':0,'message':type(exc).__name__+'：官方招聘列表读取失败'}
+
+
 def transition(registry, observations, at):
     """Never admit a newly discovered closed job to the registry."""
     jobs = copy.deepcopy(registry.get("jobs",{}))
@@ -312,6 +371,8 @@ def collect(root=ROOT):
         results = list(pool.map(lambda s:collect_workday(s,at),config["workday"]))
     observations = [j for jobs,_ in results for j in jobs]
     health = [h for _,h in results]
+    focused, focused_health=collect_focuslight(at)
+    observations.extend(focused);health.append(focused_health)
     extra, search_health = collect_search(config,at)
     observations.extend(extra); health.extend(search_health)
     seen = {j["id"] for j in observations}

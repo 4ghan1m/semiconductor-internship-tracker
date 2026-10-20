@@ -4,7 +4,7 @@ from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
-from tracker import transition, persist_run, evidence, wd_observe, web_observe, canonical
+from tracker import transition, persist_run, evidence, wd_observe, web_observe, canonical, focuslight_detail
 from render import build
 
 AT='2026-10-20T05:00:00+08:00'
@@ -84,6 +84,14 @@ class Preservation(unittest.TestCase):
             self.assertIn('&lt;img',page)
 
 class OfficialEvidence(unittest.TestCase):
+    def test_official_list_detail_requires_matching_title_and_application(self):
+        job=obs();job['title']='薄膜工艺实习生'
+        page='<h1>薄膜工艺实习生</h1><div class="fyxwbt">申请职位<a href="mailto:HR@focuslight.com">申请</a></div><div class="fyxwxqbjq">任职要求：材料硕士</div>'
+        self.assertEqual(focuslight_detail(job,page,AT)['evidence']['state'],'open')
+        self.assertEqual(focuslight_detail(job,page.replace('mailto:','https:'),AT)['evidence']['state'],'unverified')
+        job['title']='另一个职位'
+        self.assertEqual(focuslight_detail(job,page,AT)['evidence']['state'],'unverified')
+
     def test_url_identity_keeps_job_query_parameters(self):
         self.assertEqual(canonical('https://example.com/job?post_id=123&utm_source=search'), 'https://example.com/job?post_id=123')
 
