@@ -1,4 +1,4 @@
-"""Render one self-contained HTML with latest jobs and descending daily history."""
+"""Render Beijing-only current jobs and daily history; preserve all raw archives."""
 from collections import Counter
 import html
 import json
