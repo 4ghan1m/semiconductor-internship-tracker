@@ -1,21 +1,140 @@
 {
   "workday": [
-    {"id":"amat","company":"应用材料 Applied Materials","host":"amat.wd1.myworkdayjobs.com","tenant":"amat","board":"External"},
-    {"id":"kla","company":"科磊 KLA","host":"kla.wd1.myworkdayjobs.com","tenant":"kla","board":"Search"},
-    {"id":"intel","company":"英特尔 Intel","host":"intel.wd1.myworkdayjobs.com","tenant":"intel","board":"External"},
-    {"id":"nxp","company":"恩智浦 NXP","host":"nxp.wd3.myworkdayjobs.com","tenant":"nxp","board":"careers"}
+    {
+      "id": "amat",
+      "company": "应用材料 Applied Materials",
+      "host": "amat.wd1.myworkdayjobs.com",
+      "tenant": "amat",
+      "board": "External"
+    },
+    {
+      "id": "kla",
+      "company": "科磊 KLA",
+      "host": "kla.wd1.myworkdayjobs.com",
+      "tenant": "kla",
+      "board": "Search"
+    },
+    {
+      "id": "intel",
+      "company": "英特尔 Intel",
+      "host": "intel.wd1.myworkdayjobs.com",
+      "tenant": "intel",
+      "board": "External"
+    },
+    {
+      "id": "nxp",
+      "company": "恩智浦 NXP",
+      "host": "nxp.wd3.myworkdayjobs.com",
+      "tenant": "nxp",
+      "board": "careers"
+    }
   ],
   "search_queries": [
     "北京 半导体 材料 实习生 招聘",
     "北京 薄膜 工艺 表征 实习生 招聘",
-    "北方华创 中芯国际 燕东微 实习生",
-    "中微公司 拓荆科技 盛美上海 实习 材料",
-    "半导体 材料 硕士 实习 site:shixiseng.com/intern",
-    "Beijing semiconductor materials process internship"
+    "Beijing semiconductor materials process internship",
+    "北京 北方华创 中芯国际 燕东微 材料 工艺 实习生",
+    "北京 汽车 材料研发 实习生 招聘",
+    "北京 车企 材料 工艺 实习生 招聘",
+    "北京 汽车 热管理 热仿真 能源动力 实习生",
+    "北京 动力电池 电化学 材料 实习生",
+    "北京 汽车 制造工艺 质量 测试 实习生",
+    "北京 汽车 AI 材料 机器学习 实习生",
+    "北京 理想汽车 小米汽车 北汽 蔚来 材料 实习",
+    "Beijing automotive materials thermal battery manufacturing quality intern"
   ],
   "watch_links": [
-    {"id":"hanxu-spin","company":"寒序科技","title":"自旋电子学材料与器件实习生","location":"北京海淀","url":"https://www.shixiseng.com/intern/inn_cp2b76aql4xb","note":"搜索发现的北京材料方向线索；必须实时读取职位详情后才能确认开放。"}
+    {
+      "id": "hanxu-spin",
+      "company": "寒序科技",
+      "title": "自旋电子学材料与器件实习生",
+      "location": "北京海淀",
+      "url": "https://www.shixiseng.com/intern/inn_cp2b76aql4xb",
+      "note": "搜索发现的北京材料方向线索；必须实时读取职位详情后才能确认开放。"
+    }
   ],
-  "official_domains": ["focuslight.com","naura.com","smics.com","amec-inc.com","piotech.com","acmrcsh.com","ymtc.com","cxmt.com","yandongmicro.com","asml.com","lamresearch.com","ti.com","infineon.com","nexperia.com","jobs.boe.com"],
-  "search_domains": ["shixiseng.com","ncss.cn","edu.cn"]
+  "official_domains": [
+    "focuslight.com",
+    "naura.com",
+    "smics.com",
+    "amec-inc.com",
+    "piotech.com",
+    "acmrcsh.com",
+    "ymtc.com",
+    "cxmt.com",
+    "yandongmicro.com",
+    "asml.com",
+    "lamresearch.com",
+    "ti.com",
+    "infineon.com",
+    "nexperia.com",
+    "jobs.boe.com",
+    "lixiang.com",
+    "xiaomi.com",
+    "baicgroup.com.cn",
+    "bjev.com.cn",
+    "nio.com",
+    "xpeng.com",
+    "bmwgroup.com",
+    "mercedes-benz.com",
+    "bosch.com",
+    "catl.com",
+    "byd.com"
+  ],
+  "search_domains": [
+    "shixiseng.com",
+    "ncss.cn",
+    "edu.cn"
+  ],
+  "scope": {
+    "display_city": "北京",
+    "industries": [
+      "semiconductor",
+      "automotive"
+    ],
+    "profile": [
+      "材料工程硕士",
+      "能源动力本科"
+    ],
+    "directions": [
+      "材料研发",
+      "材料/工艺",
+      "热管理",
+      "动力电池",
+      "制造工艺",
+      "质量/测试",
+      "AI+材料"
+    ]
+  },
+  "industry_keywords": [
+    "半导体",
+    "芯片",
+    "晶圆",
+    "集成电路",
+    "semiconductor",
+    "wafer",
+    "microelectronic",
+    "自旋电子",
+    "MRAM",
+    "薄膜",
+    "刻蚀",
+    "汽车",
+    "车企",
+    "整车",
+    "车用",
+    "automotive",
+    "vehicle",
+    "动力电池",
+    "battery",
+    "热管理",
+    "thermal management",
+    "理想汽车",
+    "小米汽车",
+    "北汽",
+    "蔚来",
+    "奔驰",
+    "宝马",
+    "博世",
+    "宁德时代"
+  ]
 }

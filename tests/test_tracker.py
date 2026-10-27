@@ -4,8 +4,8 @@ from pathlib import Path
 import tempfile
 import unittest
 from unittest.mock import patch
-from tracker import transition, persist_run, evidence, wd_observe, web_observe, canonical, focuslight_detail
-from render import build
+from tracker import transition, persist_run, evidence, wd_observe, web_observe, canonical, focuslight_detail, matches_industry, fit
+from render import build, is_beijing
 
 AT='2026-10-20T05:00:00+08:00'
 LATER='2026-10-21T05:00:00+08:00'
@@ -113,5 +113,46 @@ class OfficialEvidence(unittest.TestCase):
             s.return_value.get.return_value=Response()
             r=web_observe(obs(),{'official_domains':['example.com']},AT)
             self.assertEqual(r['evidence']['state'],'unverified')
+
+
+class BeijingScope(unittest.TestCase):
+    def test_only_explicit_work_locations_qualify(self):
+        for location in ['北京海淀', 'Shanghai / Beijing', '上海、北京市', 'BEIJING']:
+            self.assertTrue(is_beijing({'location':location}))
+        for location in ['上海', '待核实（搜索线索）', '', 'Beijingville']:
+            self.assertFalse(is_beijing({'location':location, 'company':'北京汽车', 'discovery_query':'北京 汽车 实习'}))
+
+    def test_current_history_counts_and_raw_archive(self):
+        with tempfile.TemporaryDirectory() as t:
+            root=Path(t); bj=obs(); sh=obs(key='demo:2'); sh['location']='上海'; sh['title']='NON_BEIJING_SENTINEL'
+            registry=transition({'jobs':{}}, [bj, sh], AT)
+            persist_run(root,registry,[],AT,'scope')
+            before={p:p.read_bytes() for p in (root/'data').rglob('*.json')}
+            build(root)
+            page=(root/'docs/index.html').read_text(encoding='utf-8')
+            self.assertNotIn('NON_BEIJING_SENTINEL',page)
+            self.assertIn('新发现开放<b>01</b>',page)
+            self.assertNotIn('id="beijing"',page)
+            for p, content in before.items():
+                self.assertEqual(content,p.read_bytes())
+                self.assertEqual(content,(root/'docs/data'/p.relative_to(root/'data')).read_bytes())
+
+    def test_automotive_discovery_and_profile_ranking(self):
+        config=json.loads((Path(__file__).resolve().parents[1]/'config.json').read_text(encoding='utf-8'))
+        for title in ['汽车材料研发实习生','动力电池实习生','Automotive Thermal Management Intern']:
+            self.assertTrue(matches_industry(title, config))
+            self.assertGreater(fit(title,'任职要求：材料 硕士','北京')[0],50)
+        self.assertFalse(matches_industry('银行财务实习生',config))
+        self.assertTrue(all('北京' in q or 'Beijing' in q for q in config['search_queries']))
+
+    def test_workday_multicity_preserves_beijing(self):
+        source={'id':'test','company':'Test','host':'example.com','tenant':'t','board':'b'}
+        post={'title':'Thermal Intern','externalPath':'/job/1','bulletFields':['REQ1'],'locationsText':'3 Locations'}
+        class Response:
+            status_code=200
+            def json(self):return {'jobPostingInfo':{'jobReqId':'REQ1','location':'Shanghai','additionalLocations':['Beijing','Hefei'],'jobDescription':'Materials masters intern','externalUrl':'https://example.com/apply','canApply':True,'posted':True}}
+        with patch('tracker.session') as session:
+            session.return_value.get.return_value=Response()
+            self.assertTrue(is_beijing(wd_observe(source,post,AT)))
 
 if __name__=='__main__':unittest.main()

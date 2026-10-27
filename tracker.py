@@ -23,7 +23,7 @@ CST = timezone(timedelta(hours=8))
 LABELS = {"new":"新发现开放", "open":"仍在招聘", "closed":"已关闭", "unverified":"待核实"}
 INTERN = re.compile(r"\bintern(?:ship)?s?\b|实习", re.I)
 NONTECH = re.compile(r"finance|accountant|purchasing|human.resources|\bHR\b|legal|strategy|财务|会计|采购|人力|法务|战略",re.I)
-MATERIAL = re.compile(r"材料|薄膜|镀膜|刻蚀|沉积|表征|封装|失效分析|工艺|制程|化学|物理|晶圆|\bmaterials?\b|thin.film|\bcoating\b|\betch\w*|deposition|characteri[sz]|packaging|failure.analysis|\bprocess\b|chemistry|physics|wafer|metrology", re.I)
+MATERIAL = re.compile(r"材料|薄膜|镀膜|刻蚀|沉积|表征|封装|失效分析|工艺|制程|化学|物理|晶圆|\bmaterials?\b|thin.film|\bcoating\b|\betch\w*|deposition|characteri[sz]|packaging|failure.analysis|\bprocess\b|chemistry|physics|wafer|metrology|热管理|热仿真|热传导|电池|电化学|制造|质量|测试|thermal|battery|batteries|electrochem|manufactur|quality|test|AI.?材料|materials?.informatics", re.I)
 CHINA = re.compile(r"China|\bCHN\b|中国|北京|上海|天津|无锡|苏州|西安|成都|深圳|杭州|武汉|合肥|大连|Beijing|Shanghai|Tianjin|Wuxi|Suzhou|Xi.an|Chengdu|Shenzhen|Hangzhou|Wuhan|Hefei|Dalian", re.I)
 SEMI = re.compile(r"半导体|芯片|晶圆|集成电路|semiconductor|wafer|microelectronic|自旋电子|MRAM|薄膜|刻蚀", re.I)
 CLOSED = re.compile(r"职位[已]?关闭|招聘[已]?结束|停止招聘|已下线|该职位已结束|不再接受[申请投递]|no longer (?:available|accepting applications)|job (?:has been|is) (?:filled|closed)|position (?:has been|is) (?:filled|closed)", re.I)
@@ -76,7 +76,7 @@ def fit(title, description, location):
         score -= 50; reasons.append("可能要求博士，需核实学历")
     if re.search(r"software|compiler|GPU|firmware|AI Application|软件",title,re.I) and not hits:
         score -= 25; reasons.append("偏软件 / 芯片设计，材料专业需核对技能门槛")
-    return score, reasons or ["半导体行业实习，专业资格需逐项核对"]
+    return score, reasons or ["半导体 / 汽车行业实习，专业资格需逐项核对"]
 
 
 def workday_url(source, path):
@@ -96,7 +96,10 @@ def wd_observe(source, posting, at):
             return job
         info = r.json().get("jobPostingInfo", {})
         desc = text(info.get("jobDescription", ""))
-        job["location"] = info.get("location",job["location"])
+        locations = [info.get("location", job["location"])]
+        for loc in info.get("additionalLocations", []) or []:
+            locations.append(loc.get("descriptor", "") if isinstance(loc, dict) else str(loc))
+        job["location"] = " / ".join(dict.fromkeys(loc for loc in locations if loc))
         if info.get("country",{}).get("descriptor")=="China" and not CHINA.search(job["location"]):
             job["location"] += "（中国）"
         job.update({"title":info.get("title",job["title"]),"description":desc[:14000],"posted":info.get("startDate",""),"conditions":qualification_excerpt(desc)})
@@ -199,10 +202,13 @@ def web_observe(job, config, at):
             org = p.get("hiringOrganization",{})
             if isinstance(org,dict): job["company"] = org.get("name",job["company"])
             loc = p.get("jobLocation",{})
-            if isinstance(loc,list):loc = loc[0] if loc else {}
-            if isinstance(loc,dict):
-                addr = loc.get("address",{})
-                if isinstance(addr,dict):job["location"] = " ".join(str(addr.get(k,"")) for k in ["addressRegion","addressLocality"]).strip() or job.get("location","待核实")
+            locations = loc if isinstance(loc, list) else [loc]
+            names = []
+            for loc in locations:
+                addr = loc.get("address", {}) if isinstance(loc, dict) else {}
+                if isinstance(addr, dict):
+                    names.append(" ".join(str(addr.get(k, "")) for k in ["addressRegion", "addressLocality"]).strip())
+            job["location"] = " / ".join(n for n in names if n) or job.get("location", "待核实")
             expiry = str(p.get("validThrough",""))[:10]
             job["description"] = desc[:14000]
             job["conditions"] = qualification_excerpt(desc)
@@ -226,6 +232,10 @@ def web_observe(job, config, at):
     return job
 
 
+def matches_industry(value, config):
+    return any(re.search(re.escape(k), value, re.I) for k in config.get("industry_keywords", [])) or bool(SEMI.search(value))
+
+
 def collect_search(config, at):
     def query(q):
         try:
@@ -235,7 +245,7 @@ def collect_search(config, at):
             jobs=[]
             for item in root.findall("./channel/item"):
                 title = item.findtext("title",""); url = canonical(item.findtext("link","")); desc = item.findtext("description","")
-                if permitted(url,config) and INTERN.search(title) and SEMI.search(title+" "+desc):
+                if permitted(url,config) and INTERN.search(title) and matches_industry(title+" "+desc, config):
                     jobs.append({"id":"web:"+hashlib.sha256(url.encode()).hexdigest()[:16],"source":"web","company":"待核实招聘单位","title":title,"location":"待核实（搜索线索）","url":url,"discovery_query":q})
             return jobs,{"source":"网页搜索 · "+q,"id":"search","url":r.url,"ok":True,"scanned":len(root.findall('./channel/item')),"candidates":len(jobs),"message":"仅发现线索；逐条访问原始职位详情核实"}
         except Exception as exc:

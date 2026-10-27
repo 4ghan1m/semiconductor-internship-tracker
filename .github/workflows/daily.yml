@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths: ['*.py', 'config.json', 'requirements.txt', '.github/workflows/daily.yml']
+    paths: ['*.py', 'config.json', 'requirements.txt', 'tests/**', '.github/workflows/daily.yml']
 permissions:
   contents: write
   pages: write
