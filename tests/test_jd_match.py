@@ -31,6 +31,14 @@ class JDMatchingTests(unittest.TestCase):
         result=classify(job("工艺实习生-2027届","岗位要求：专业要求：材料工程；2027届硕士。"))
         self.assertEqual(result["match_grade"],"A")
         self.assertTrue(any("毕业届别" in x for x in result["skill_gaps"]))
+    def test_english_material_major_and_source(self):
+        result=classify(job("Intern_Battery R&D", "Key Qualifications: basic electrochemistry. Education: Degree: Bachelor or above. Major: Material, Chemistry or Chemical Engineering. Internship: 6 months, 4-5 days/week.",source="web") | {"jd_source_url":"https://example.org/third-party-jd"})
+        self.assertEqual(result["match_grade"],"A")
+        self.assertEqual(result["jd_source_url"],"https://example.org/third-party-jd")
+        self.assertNotEqual(result["attendance_requirement"],"未说明")
+    def test_university_semi_equipment_is_B(self):
+        result=classify(job("半导体设备工程师（实习）","岗位要求：专业要求：机械、自动化、微电子、电气、物理化学等理工科；本科大四优先，英语四级。"))
+        self.assertEqual(result["match_grade"],"B")
     def test_city_strict(self):
         self.assertTrue(is_beijing({"location":"Shanghai, CHN / Beijing, CHN"}))
         self.assertFalse(is_beijing({"location":"上海"}))

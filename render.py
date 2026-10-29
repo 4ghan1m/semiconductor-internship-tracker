@@ -56,7 +56,8 @@ def card(j):
     <p><b>技能/硬性条件缺口</b> {E(gaps)}</p></div>
     <details class="evidence"><summary>JD专业要求原文及职位级证据 · {E(checked)}（北京时间）</summary>
     <p><b>JD原文摘录：</b>{E(j.get("major_evidence","未说明/待核实"))}</p>
-    <p><b>状态证据：</b>{E(ev.get("excerpt","未取得职位级证据"))}</p>
+    <p><b>JD来源说明：</b>{E(j.get("jd_source_note","职位级JD原文及来源见链接；未说明项不推定满足"))}</p>
+     <p><b>状态证据：</b>{E(ev.get("excerpt","未取得职位级证据"))}</p>
     <a href="{E(source)}" target="_blank" rel="noopener noreferrer">JD原始职位链接 ↗</a> ·
     <a href="{E(ev.get("url",source))}" target="_blank" rel="noopener noreferrer">状态证据链接 ↗</a></details>
     <div class="job-foot"><span>{dates} · 核实 {E(checked)}</span><a href="{href}" target="_blank" rel="noopener noreferrer">查看/投递 →</a></div></article>'''

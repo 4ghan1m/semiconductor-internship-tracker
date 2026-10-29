@@ -1,16 +1,16 @@
 """JD-evidence-based fit. Keep major eligibility separate from skills and job availability."""
 import re
 
-MATERIAL = re.compile(r"材料(?:科学(?:与工程)?|工程|学|类|相关|物理|化学|成型)?|冶金|金属材料|高分子|无机非金属|\bmaterials?\s+(?:science|engineering)\b|\bmetallurg\w*|\bpolymer\b", re.I)
+MATERIAL = re.compile(r"材料(?:科学(?:与工程)?|工程|学|类|相关|物理|化学|成型)?|冶金|金属材料|高分子|无机非金属|\bmaterials?\b|\bmetallurg\w*|\bpolymer\b", re.I)
 RELATED = re.compile(r"能源与动力|热能工程|动力工程|流体机械|制冷|机械|物理|化学|理工科|工程类|相关工科|专业不限|不限专业|\bmechanical engineering\b|\bchemical engineering\b|\bthermal engineering\b|\bmanufacturing engineering\b|\bphysics\b|\bchemistry\b|\bSTEM\b", re.I)
 SOFTWARE = re.compile(r"计算机|软件工程|电气工程|电子工程|\bcomputer science\b|\bsoftware engineering\b|\belectrical engineering\b", re.I)
 HARD_LOWLEVEL = re.compile(r"CUDA|GPU|编译器|固件|底层开发|\bcompiler\b|\bfirmware\b|\bC\+\+\b|\bC/C\+\+\b", re.I)
 FIELD = re.compile(r"材料|薄膜|沉积|刻蚀|光刻|CMP|封装|表征|失效|工艺|制程|良率|可靠性|设备|电池|热管理|制造|质量|测试|金属|仿真|\bmaterial\b|\bprocess\b|\betch(?:ing)?\b|deposition|wafer|thermal|battery|quality|metrology|manufactur", re.I)
-SECTION = re.compile(r"专业要求\s*[:：]|任职资格\s*[:：]|任职要求\s*[:：]|岗位要求\s*[:：]|招聘对象\s*[:：]|\b(?:Minimum|Basic|Required|Preferred)\s+Qualifications\b|\bQualifications\b|\bRequirements\b", re.I)
-MAJOR_SECTION = re.compile(r"(?:专业要求|专业背景|所学专业|专业方向)\s*[:：]\s*(.{0,240})", re.I)
+SECTION = re.compile(r"专业要求\s*[:：]|任职资格\s*[:：]|任职要求\s*[:：]|岗位要求\s*[:：]|招聘对象\s*[:：]|\b(?:Minimum|Basic|Required|Preferred)\s+Qualifications\b|\bQualifications\b|\bRequirements\b|\bKey\s+Qualifications\b|\bEducation\s*[:：]?", re.I)
+MAJOR_SECTION = re.compile(r"(?:专业要求|专业背景|所学专业|专业方向|\bMajor\b)\s*[:：]\s*(.{0,240})", re.I)
 DEGREE = re.compile(r"硕士(?:及以上|研究生)?|本科(?:及以上)?|博士(?:及以上)?|\bmaster'?s?\b|\bPh\.?D\.?\b|\bbachelor'?s?\b|\bgraduate student\b", re.I)
 GRAD = re.compile(r"20(?:2[6-9]|3[0-5])\s*届|20(?:2[6-9]|3[0-5])\s*(?:graduates?|graduation)", re.I)
-ATTEND = re.compile(r"暑期须全勤|(?:每周|一周|week(?:ly)?)[^。；;\n]{0,28}?(?:[2-7]\s*[-~至到]\s*[2-7]\s*天|[2-7]\s*天|[2-7]\s*days?)|(?:实习|internship)[^。；;\n]{0,24}?(?:[2-9]\s*个月|[2-9]\s*months?|半年)", re.I)
+ATTEND = re.compile(r"(?:[2-7]\s*[-~至到]\s*[2-7]\s*days\s*/\s*week)|(?:[2-9]\s*months)|暑期须全勤|(?:每周|一周|week(?:ly)?)[^。；;\n]{0,28}?(?:[2-7]\s*[-~至到]\s*[2-7]\s*天|[2-7]\s*天|[2-7]\s*days?)|(?:实习|internship)[^。；;\n]{0,24}?(?:[2-9]\s*个月|[2-9]\s*months?|半年)", re.I)
 LANG = re.compile(r"英语|英文|\bEnglish\b|\bCET[- ]?[46]\b", re.I)
 TECH = re.compile(r"Python|机器学习|数据分析|\bSQL\b|\bExcel\b|\bOffice\b|\bCUDA\b|C\+\+|\bMATLAB\b|\bCOMSOL\b|\bANSYS\b|\bAbaqus\b|\bEBSD\b|\bSEM\b|\bXRD\b|\bCAD\b", re.I)
 AUTO = re.compile(r"汽车|整车|车辆|新能源车|动力电池|锂离子电池|电芯|电池研发|动力系统|奔驰|理想汽车|小米汽车|座舱|热管理|\bautomotive\b|\bvehicle\b", re.I)
@@ -72,7 +72,7 @@ def classify(job):
     return {
         "match_grade":grade, "major_eligibility":major,
         "major_evidence":(major_clause or req[:850]) if req else "未说明/待核实",
-        "jd_source_url":job.get("url",""), "degree_requirement":first(DEGREE,req),
+        "jd_source_url":job.get("jd_source_url") or job.get("url",""), "degree_requirement":first(DEGREE,req),
         "graduation_requirement":first(GRAD,req+" "+title),
         "attendance_requirement":first(ATTEND,description),
         "language_requirement":first(LANG,req),

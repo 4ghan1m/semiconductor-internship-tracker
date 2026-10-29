@@ -48,7 +48,10 @@
     "北京 半导体 材料+AI 机器学习 制程 数据分析 实习生",
     "北京 北方华创 PE 工程师 实习生 J15415",
     "北京 奔驰 电池材料 研发 实习生 2026",
-    "北京 汽车 金属 高分子 材料 工艺 可靠性 实习 2026"
+    "北京 汽车 金属 高分子 材料 工艺 可靠性 实习 2026",
+    "北京 半导体 设备 现场服务工程师 实习 亦庄 材料",
+    "北京 半导体 PE 工艺实习生 J15415 北方华创",
+    "北京 奔驰 锂离子电池 电芯研发 实习 219928"
   ],
   "watch_links": [
     {
@@ -65,7 +68,10 @@
       "title": "Intern_Battery R&D/锂离子电池电芯研发实习生",
       "location": "北京大兴",
       "url": "https://career.mercedes-benz.com.cn/recruiting/company/13687/job/219928/job-detail",
-      "note": "官方职位URL；页面依赖JS，必须核实职位级申请状态及JD。不得因搜索摘要标记开放。"
+      "note": "官方职位URL可定位但JS详情无法独立确认投递开放；JD原文摘录来自得早学就创（第三方转载）。请保留待核实，勿当新开放。",
+      "jd_source_url": "https://deizao.cn/index/index/shixixq/jobid/287402",
+      "jd_source_note": "JD专业要求来自第三方招聘转载（2026-10-26）；官方具体职位页需JS，投递状态未独立核实；转载截止日不可当作官方确认。",
+      "description": "Intern_Li-ion Battery Cell R&D 锂离子电池电芯研发实习生。 Objectives: Support Li-ion cell technology update analysis through data research, analysis and documentation. Main Tasks: Research, analyze and document Li-ion cell, material and processing technology updates (40%); support cell teardown specifications, benchmarking reports and cell database (40%). Key Qualifications: Basic knowledge of electrochemistry, Li-ion batteries or cells; understanding of cell materials, design, failure analysis, safety or xEV market preferred. Language: Chinese & English proficient. Education: Degree: Bachelor or above. Major: Material, Chemistry or Chemical Engineering. Internship: 6 months, 4-5 days/week."
     },
     {
       "id": "lixiang-thermal-20617",
@@ -82,6 +88,17 @@
       "location": "北京",
       "url": "https://xiaomi.jobs.f.mioffice.cn/internship/position/7657025805281200420/detail",
       "note": "官方详情URL；毕业届别资格未知，须核实在读/申请状态。"
+    },
+    {
+      "id": "keyi-field-service-80926",
+      "company": "科意半导体设备（上海）有限公司",
+      "title": "半导体设备工程师（实习）/现场服务工程师",
+      "location": "北京亦庄",
+      "url": "https://career.hebut.edu.cn/correcruit/content/id/80926.html",
+      "jd_source_url": "https://career.hebut.edu.cn/correcruit/content/id/80926.html",
+      "jd_source_note": "河北工业大学就业系统发布的具体实习JD（2026-09-20），未独立取得企业官方可申请状态；按待核实跟踪。",
+      "description": "半导体设备工程师（实习） 工作地点：北京亦庄。工作条件：洁净室工作环境，至少3天/周，8小时/天。实习期限：至少3个月。岗位职责：整理设备运行情况，辅助处理设备异常工艺改善，辅助装机调试及验收。岗位要求：专业要求：机械、自动化、微电子、电气、物理化学等理工科；本科大四学生优先。了解基础电气及机械原理，熟练办公软件。英语4级及以上（日语N2优先）。",
+      "note": "高校就业系统职位详情可读，但企业投递入口和是否继续开放尚未核实，状态待核实。"
     }
   ],
   "official_domains": [
