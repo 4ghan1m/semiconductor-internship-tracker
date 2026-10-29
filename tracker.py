@@ -14,6 +14,7 @@ import uuid
 import xml.etree.ElementTree as ET
 
 import requests
+from jd_match import classify
 from bs4 import BeautifulSoup
 from requests.adapters import HTTPAdapter
 from urllib3.util.retry import Retry
@@ -210,6 +211,7 @@ def web_observe(job, config, at):
                     names.append(" ".join(str(addr.get(k, "")) for k in ["addressRegion", "addressLocality"]).strip())
             job["location"] = " / ".join(n for n in names if n) or job.get("location", "待核实")
             expiry = str(p.get("validThrough",""))[:10]
+            if re.fullmatch(r"\d{4}-\d\d-\d\d",expiry):job["deadline"] = expiry
             job["description"] = desc[:14000]
             job["conditions"] = qualification_excerpt(desc)
             if expiry and re.fullmatch(r"\d{4}-\d\d-\d\d",expiry) and expiry < at[:10]:
@@ -345,6 +347,7 @@ def transition(registry, observations, at):
         old["evidence"] = ev
         old["last_checked"] = at
         old["score"],old["reasons"] = fit(old["title"],old.get("description",""),old.get("location",""))
+        old.update(classify(old))
         if previous != old["status"]:
             old["events"].append({"at":at,"from":previous,"to":old["status"],"evidence":copy.deepcopy(ev)})
         jobs[key] = old
@@ -353,6 +356,9 @@ def transition(registry, observations, at):
             job["status"] = "unverified"
             job["evidence"] = evidence("unverified",job["url"],"本轮未取得职位详情；未出现于检索结果不代表已关闭", "not-observed",at)
             job["last_checked"] = at
+    # Re-evaluate old records too: legacy keyword scores must not masquerade as JD eligibility.
+    for job in jobs.values():
+        job.update(classify(job))
     return {"schema_version":1,"updated_at":at,"jobs":jobs}
 
 
@@ -361,7 +367,7 @@ def persist_run(root, registry, health, at, run_id):
     path = data / "runs" / (run_id+".json")
     if path.exists():
         raise FileExistsError("不可覆盖已有运行快照："+run_id)
-    snapshot = {"schema_version":1,"id":run_id,"date":at[:10],"generated_at":at,"jobs":sorted(registry["jobs"].values(),key=lambda j:(-j.get("score",0),j["id"])),"sources":health}
+    snapshot = {"schema_version":1,"id":run_id,"date":at[:10],"generated_at":at,"jobs":sorted(registry["jobs"].values(),key=lambda j:(j.get("match_grade") not in ("A","B"), j.get("priority_order",9), -j.get("score",0),j["id"])),"sources":health}
     write_json(path,snapshot)
     day_path = data / "history" / (at[:10]+".json")
     day = read_json(day_path,{"date":at[:10],"runs":[]})
