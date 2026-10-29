@@ -37,7 +37,7 @@ def classify(job):
         major_clause = re.split(r"任职资格|岗位职责|技能要求|工作内容|任职要求", major_clause)[0][:200]
     explicit_material = bool(MATERIAL.search(major_clause)) or bool(re.search(r"(?:专业|major|degree)[^。；;]{0,80}(?:材料|冶金|materials?\s+(?:science|engineering)|metallurg)", req, re.I))
     explicit_related = bool(RELATED.search(major_clause)) or bool(re.search(r"(?:专业|major|degree)[^。；;]{0,80}(?:机械|物理|化学|理工|工程|engineering|physics|chemistry)", req, re.I))
-    software_only = bool(SOFTWARE.search(major_clause)) and not explicit_material and not bool(RELATED.search(major_clause))
+    software_only = (bool(SOFTWARE.search(major_clause)) and not explicit_material and not bool(RELATED.search(major_clause))) or (bool(re.search(r"software|compiler|firmware|GPU|CUDA|编译器|固件",title,re.I)) and bool(SOFTWARE.search(req)) and not explicit_material and not explicit_related)
     lowlevel = bool(HARD_LOWLEVEL.search(title)) or bool(re.search(r"(?:必须|精通|required|proficien(?:t|cy)|strong experience)[^。；;]{0,75}(?:CUDA|C\+\+|GPU|编译器|固件)", req, re.I))
     phd_only = bool(re.search(r"仅限博士|必须博士|Ph\.?D\.?\s+(?:required|only)", req, re.I))
     related_work = bool(FIELD.search(title + " " + description[:2000]))
