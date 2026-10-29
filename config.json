@@ -41,7 +41,14 @@
     "北京 汽车 制造工艺 质量 测试 实习生",
     "北京 汽车 AI 材料 机器学习 实习生",
     "北京 理想汽车 小米汽车 北汽 蔚来 材料 实习",
-    "Beijing automotive materials thermal battery manufacturing quality intern"
+    "Beijing automotive materials thermal battery manufacturing quality intern",
+    "北京 屹唐 半导体 工艺 材料 实习 2026",
+    "北京 华海清科 CMP 材料 工艺 实习生 2026",
+    "北京 燕东微 中芯国际 失效分析 可靠性 实习生",
+    "北京 半导体 材料+AI 机器学习 制程 数据分析 实习生",
+    "北京 北方华创 PE 工程师 实习生 J15415",
+    "北京 奔驰 电池材料 研发 实习生 2026",
+    "北京 汽车 金属 高分子 材料 工艺 可靠性 实习 2026"
   ],
   "watch_links": [
     {
@@ -51,6 +58,30 @@
       "location": "北京海淀",
       "url": "https://www.shixiseng.com/intern/inn_cp2b76aql4xb",
       "note": "搜索发现的北京材料方向线索；必须实时读取职位详情后才能确认开放。"
+    },
+    {
+      "id": "mercedes-battery-219928",
+      "company": "梅赛德斯-奔驰",
+      "title": "Intern_Battery R&D/锂离子电池电芯研发实习生",
+      "location": "北京大兴",
+      "url": "https://career.mercedes-benz.com.cn/recruiting/company/13687/job/219928/job-detail",
+      "note": "官方职位URL；页面依赖JS，必须核实职位级申请状态及JD。不得因搜索摘要标记开放。"
+    },
+    {
+      "id": "lixiang-thermal-20617",
+      "company": "理想汽车",
+      "title": "前瞻技术实习生（汽车热管理与座舱热舒适）",
+      "location": "北京",
+      "url": "https://www.lixiang.com/employ/detail/20617.html",
+      "note": "官方详情URL；此前无法独立核实开放，保留待核实。"
+    },
+    {
+      "id": "xiaomi-powertrain-7657025805281200420",
+      "company": "小米汽车",
+      "title": "动力系统集成开发-2027届",
+      "location": "北京",
+      "url": "https://xiaomi.jobs.f.mioffice.cn/internship/position/7657025805281200420/detail",
+      "note": "官方详情URL；毕业届别资格未知，须核实在读/申请状态。"
     }
   ],
   "official_domains": [
@@ -79,7 +110,9 @@
     "mercedes-benz.com",
     "bosch.com",
     "catl.com",
-    "byd.com"
+    "byd.com",
+    "mercedes-benz.com.cn",
+    "mioffice.cn"
   ],
   "search_domains": [
     "shixiseng.com",
@@ -104,7 +137,9 @@
       "制造工艺",
       "质量/测试",
       "AI+材料"
-    ]
+    ],
+    "other_city_supplement": "仅A/B且具体城市明确、官方证实开放；独立板块不计北京",
+    "matching": "逐岗JD原文 A/B/C/U 专业资格与技能匹配分别记录"
   },
   "industry_keywords": [
     "半导体",
