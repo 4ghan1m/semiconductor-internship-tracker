@@ -131,7 +131,8 @@ class BeijingScope(unittest.TestCase):
             build(root)
             page=(root/'docs/index.html').read_text(encoding='utf-8')
             self.assertNotIn('NON_BEIJING_SENTINEL',page)
-            self.assertIn('新发现开放<b>01</b>',page)
+            self.assertIn('新发现开放<b>00</b>',page)
+            self.assertIn('北京 · JD专业资格待核实',page)
             self.assertNotIn('id="beijing"',page)
             for p, content in before.items():
                 self.assertEqual(content,p.read_bytes())
