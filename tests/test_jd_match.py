@@ -18,6 +18,12 @@ class JDMatchingTests(unittest.TestCase):
     def test_company_boilerplate_does_not_imply_material_major(self):
         result=classify(job("Sales Intern","We are the leader in materials science. Responsibilities include selling products."))
         self.assertEqual(result["match_grade"],"U")
+    def test_electronics_and_software_major_not_B(self):
+        result=classify(job("DFT Verification intern","Requirements: Currently pursuing a Master degree in Electrical Engineering, Electronics, Computer Engineering, Computer Science or related discipline. Testing and quality work."))
+        self.assertEqual(result["match_grade"],"C")
+    def test_auto_battery_sector(self):
+        result=classify(job("Intern_Battery R&D/锂离子电池电芯研发实习生","岗位要求：专业要求：材料工程；硕士在读。"))
+        self.assertEqual(result["industry"],"汽车")
     def test_missing_jd_not_automatically_B(self):
         result=classify(job("材料工艺实习生",""))
         self.assertEqual(result["match_grade"],"U")

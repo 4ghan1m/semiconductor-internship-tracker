@@ -69,7 +69,7 @@ def build(root):
     primary=sorted((j for j in bj if j["match_grade"] in ("A","B")),key=lambda j:(j["priority_order"],j["match_grade"]!="A",-j.get("score",0)))
     unresolved=[j for j in bj if j["match_grade"]=="U"]
     low=[j for j in bj if j["match_grade"]=="C"]
-    other=sorted((j for j in all_jobs if is_other_city(j) and j["match_grade"] in ("A","B") and j["status"] in ("new","open")),key=lambda j:(j["priority_order"],j["match_grade"]!="A"))[:8]
+    other=sorted((j for j in all_jobs if is_other_city(j) and j["match_grade"] in ("A","B") and j["status"] in ("new","open","unverified")),key=lambda j:(j["priority_order"],j["match_grade"]!="A"))[:8]
     counts=Counter(j["status"] for j in primary)
     statuses="".join(f'<button type="button" class="status-filter" data-filter="{s}" aria-pressed="false"><span class="dot {s}"></span>{label}<b>{counts[s]:02d}</b></button>' for s,label in LABELS.items())
     hints={"new":"首次被本系统确认开放，并不代表当天发布。","open":"本系统此前确认开放，本轮再次核实。","closed":"此前确认开放，后来取得具体职位关闭证据。","unverified":"专业适配A/B，但本轮开放状态未能确认。"}
@@ -78,7 +78,7 @@ def build(root):
         subset=[j for j in primary if j["status"]==status]
         groups+=f'<section class="job-section" data-group="{status}" id="{status}"><div class="section-title"><h2>{label} · A/B <span>{len(subset):02d}</span></h2><p>{hints[status]}</p></div><div class="job-grid">'+("".join(card(j) for j in subset) if subset else '<p class="empty">暂无符合A/B专业证据的岗位。</p>')+"</div></section>"
     groups+=f'<section class="job-section" id="pending-major"><div class="section-title"><h2>北京 · JD专业资格待核实 <span>{len(unresolved):02d}</span></h2><p>缺少JD任职/专业证据，不能自动认定A或B；原有职位状态不因此被判定关闭。</p></div><div class="job-grid">'+("".join(card(j) for j in unresolved) if unresolved else '<p class="empty">暂无。</p>')+"</div></section>"
-    groups+=f'<section class="job-section" id="other-city"><div class="section-title"><h2>其他城市补充 · A/B <span>{len(other):02d}</span></h2><p>独立展示少量高匹配职位，不计入北京岗位数量。</p></div><div class="job-grid">'+("".join(card(j) for j in other) if other else '<p class="empty">本轮暂无已确认开放的A/B其他城市补充。</p>')+"</div></section>"
+    groups+=f'<section class="job-section" id="other-city"><div class="section-title"><h2>其他城市补充 · A/B <span>{len(other):02d}</span></h2><p>独立展示少量高匹配职位（包括待核实线索），不计入北京岗位数量；待核实不等于开放。</p></div><div class="job-grid">'+("".join(card(j) for j in other) if other else '<p class="empty">本轮暂无已确认开放的A/B其他城市补充。</p>')+"</div></section>"
     groups+=f'<details class="lowmatch"><summary>北京低匹配 C 类历史岗位（{len(low)} 条，不占主要推荐位）</summary><div class="job-grid">'+("".join(card(j) for j in low) if low else '<p class="empty">暂无。</p>')+"</div></details>"
     history="";days=sorted((data/"history").glob("*.json"),reverse=True)
     for path in days:
