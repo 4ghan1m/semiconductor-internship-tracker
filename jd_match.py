@@ -35,8 +35,8 @@ def classify(job):
     major_clause = major_match.group(1) if major_match else ""
     if major_clause:
         major_clause = re.split(r"任职资格|岗位职责|技能要求|工作内容|任职要求", major_clause)[0][:200]
-    explicit_material = bool(MATERIAL.search(major_clause)) or bool(re.search(r"(?:专业|major|degree)[^。；;]{0,80}(?:材料|冶金|materials?\s+(?:science|engineering)|metallurg)", req, re.I))
-    explicit_related = bool(RELATED.search(major_clause)) or bool(re.search(r"(?:专业|major|degree)[^。；;]{0,80}(?:机械|热能|能源动力|物理|化学|理工|机械工程|机械制造|mechanical engineering|chemical engineering|thermal engineering|manufacturing engineering|physics|chemistry)", req, re.I))
+    explicit_material = bool(MATERIAL.search(major_clause)) or bool(re.search(r"(?:专业|教育背景|学历(?:要求)?|major|degree)[^。；;]{0,120}(?:材料|冶金|materials?\s+(?:science|engineering)|metallurg|polymer)", req, re.I))
+    explicit_related = bool(RELATED.search(major_clause)) or bool(re.search(r"(?:专业|教育背景|学历(?:要求)?|major|degree)[^。；;]{0,120}(?:机械|热能|能源动力|物理|化学|理工|机械工程|机械制造|mechanical engineering|chemical engineering|thermal engineering|manufacturing engineering|physics|chemistry)", req, re.I))
     software_only = bool(SOFTWARE.search(req)) and not explicit_material and not explicit_related and (bool(SOFTWARE.search(major_clause)) or bool(re.search(r"software|compiler|firmware|GPU|CUDA|DFT|verification|编译器|固件",title,re.I)) or bool(re.search(r"(?:major|degree|专业要求)[^.;。；]{0,140}(?:computer science|electrical engineering|software engineering|电子工程|电气工程|计算机)",req,re.I)))
     lowlevel = bool(HARD_LOWLEVEL.search(title)) or bool(re.search(r"(?:必须|精通|required|proficien(?:t|cy)|strong experience)[^。；;]{0,75}(?:CUDA|C\+\+|GPU|编译器|固件)", req, re.I))
     phd_only = bool(re.search(r"仅限博士|必须博士|Ph\.?D\.?\s+(?:required|only)", req, re.I))
@@ -55,7 +55,7 @@ def classify(job):
         grade, major = "U", "JD未明确证明材料专业合格或相关理工科资格；待核实"
     sector = title + " " + job.get("company", "")
     industry = ("汽车" if AUTO.search(sector) and not SEMI.search(title) else
-                "半导体" if SEMI.search(sector) or job.get("source") in {"amat","kla","intel","nxp","focuslight"} else
+                "半导体" if SEMI.search(sector) or SEMI.search(description[:900]) or job.get("source") in {"amat","kla","intel","nxp","focuslight"} else
                 "汽车" if AUTO.search(description[:700]) and not SEMI.search(description[:700]) else "待核实")
     if industry == "半导体" and re.search(r"材料|薄膜|沉积|刻蚀|光刻|CMP|封装|失效|可靠性|工艺|制程|良率|表征|\bprocess\b|\bmaterials?\b",title,re.I):
         priority, rank = "半导体材料/工艺", 0
