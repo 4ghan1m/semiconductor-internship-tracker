@@ -36,6 +36,13 @@ class JDMatchingTests(unittest.TestCase):
         self.assertEqual(result["match_grade"],"A")
         self.assertEqual(result["jd_source_url"],"https://example.org/third-party-jd")
         self.assertNotEqual(result["attendance_requirement"],"未说明")
+    def test_materials_major_in_education_background_is_A(self):
+        result=classify(job("可靠性实习生","任职要求：教育背景：本科及以上在读，微电子、材料、自动化、电子工程等相关专业。每周出勤4天。职责：芯片可靠性和失效分析。"))
+        self.assertEqual(result["match_grade"],"A")
+        self.assertEqual(result["industry"],"半导体")
+    def test_company_boilerplate_not_education_background(self):
+        result=classify(job("行政实习生","公司介绍：本企业主营材料与芯片制造。任职要求：擅长行政工作，沟通能力强。"))
+        self.assertNotEqual(result["match_grade"],"A")
     def test_university_semi_equipment_is_B(self):
         result=classify(job("半导体设备工程师（实习）","岗位要求：专业要求：机械、自动化、微电子、电气、物理化学等理工科；本科大四优先，英语四级。"))
         self.assertEqual(result["match_grade"],"B")
