@@ -56,7 +56,9 @@
     "北京 半导体 可靠性 测试 失效分析 实习生 2026",
     "北京 半导体 材料 工艺 设备 研发 实习生 2026 10月31",
     "北京 北方华创 PIE工程师 实习岗 J14086 硕士",
-    "北京 北方华创 PE工程师 实习生 J15415 工艺数据"
+    "北京 北方华创 PE工程师 实习生 J15415 工艺数据",
+    "北京汽车研究总院 AI新材料设计工程师 实习 4483402600",
+    "北京 半导体 材料研发 工艺 实习 2026年11月"
   ],
   "watch_links": [
     {
@@ -135,6 +137,18 @@
       "jd_source_url": "https://m.yupao.com/s/yp35013902/",
       "note": "2026-11-01首次检索发现：鱼泡企业认证聚合页显示该职位编号和北京通州，官方申请状态未核实；仅为待核实线索。",
       "description": "PIE工程师（实习岗）J14086。岗位职责：搭建标准工时数据库、生产流程及布局优化、精益制造、生产数据分析。任职资格：硕士及以上学历，机械、电气、机电一体化等相关专业；Office、CAD；工作日到岗，连续实习不少于6个月。信息来自第三方职位聚合页，需官方JD复核。"
+    },
+    {
+      "id": "baic-ai-materials-intern-4483402600",
+      "company": "北京汽车研究总院有限公司",
+      "title": "AI新材料设计工程师（实习）",
+      "location": "北京",
+      "url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
+      "jd_source_url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
+      "jd_source_note": "2026-11-02核对LinkedIn职位页（注明来源猎聘），尚无企业官方职位级投递证据。该页面写明材料相关专业，但材料计算软件、PyTorch、DFT/MD实操等要求须核实；实习期限与截止日期以官方为准。仅待核实，不认定新开放。",
+      "description": "职位概述：面向固态电池、正负极材料、轻量化合金与复合材料，参与材料数据库建设、数据清洗、特征工程、机器学习材料性能预测、生成式材料设计、DFT/MD计算与实验闭环。任职要求：材料科学、化学、物理、电化学、计算材料学、计算机等相关专业。硕士或博士在读。熟练使用Python，熟悉pymatgen或ASE至少一种；有PyTorch经验、了解图神经网络；有VASP、Quantum ESPRESSO、CP2K等DFT或LAMMPS分子动力学实际经验；具备晶体学、热力学或电化学基础；可独立阅读文献。实习至少4天/周，时长页面存在3-6个月与不少于6个月的不同表述，待HR核实。",
+      "conditions": "任职要求：材料科学、化学、物理、电化学、计算材料学、计算机等相关专业。硕士或博士在读。熟练使用Python，熟悉pymatgen或ASE至少一种；有PyTorch经验、了解图神经网络；有VASP、Quantum ESPRESSO、CP2K等DFT或LAMMPS分子动力学实际经验。每周至少4天，时长待核实。",
+      "note": "材料专业明确列入，专业适配证据强；技能缺口：pymatgen/ASE、PyTorch/GNN、DFT或MD实际经验未获证明，不能认定全部满足；职位级官方开放状态待核实。"
     }
   ],
   "official_domains": [
@@ -170,7 +184,8 @@
   "search_domains": [
     "shixiseng.com",
     "ncss.cn",
-    "edu.cn"
+    "edu.cn",
+    "linkedin.com"
   ],
   "scope": {
     "display_city": "北京",
