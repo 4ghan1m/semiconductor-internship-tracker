@@ -211,10 +211,16 @@ def web_observe(job, config, at):
                     names.append(" ".join(str(addr.get(k, "")) for k in ["addressRegion", "addressLocality"]).strip())
             job["location"] = " / ".join(n for n in names if n) or job.get("location", "待核实")
             expiry = str(p.get("validThrough",""))[:10]
-            if re.fullmatch(r"\d{4}-\d\d-\d\d",expiry):job["deadline"] = expiry
+            # A third-party job-board expiry is not an official closing date.
+            # Some mirrors even disagree with their own displayed JD deadline.
+            if not official:
+                job["deadline"] = ""
+                job["deadline_note"] = "第三方平台截止日期未经企业官方确认；如页面日期冲突，以官方JD为准"
+            elif re.fullmatch(r"\d{4}-\d\d-\d\d",expiry):
+                job["deadline"] = expiry
             job["description"] = desc[:14000]
             job["conditions"] = qualification_excerpt(desc)
-            if expiry and re.fullmatch(r"\d{4}-\d\d-\d\d",expiry) and expiry < at[:10]:
+            if official and expiry and re.fullmatch(r"\d{4}-\d\d-\d\d",expiry) and expiry < at[:10]:
                 job["evidence"] = evidence("closed",url,"职位 JobPosting 的截止日期为 "+expiry,"jobposting-expiry",at)
                 return job
             apply = any(re.search(r"投递简历|立即投递|Apply(?: now)?|申请职位",a.get_text(" ",strip=True),re.I) for a in soup.find_all(["a","button"]))
