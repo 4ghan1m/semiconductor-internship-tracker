@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "id": "20261102T050550389524-41350186859-1",
+  "id": "20261102T051050603552-41350645949-1",
   "date": "2026-11-02",
-  "generated_at": "2026-11-02T05:05:50+08:00",
+  "generated_at": "2026-11-02T05:10:50+08:00",
   "jobs": [
     {
       "id": "web:d68a77b5d191011b",
@@ -38,9 +38,9 @@
         "url": "https://cn.linkedin.com/jobs/view/%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%AE%9E%E4%B9%A0%E7%94%9F-at-beijing-tongfang-microelectronics-company-4481409565",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 65,
       "reasons": [
         "北京岗位",
@@ -48,7 +48,7 @@
       ],
       "match_grade": "A",
       "major_eligibility": "JD专业要求明确包含材料/冶金相关专业",
-      "major_evidence": "任职要求： 1、教育背景：本科及以上在读，微电子、材料、自动化、电子工程等相关专业。 2、实习时间：每周出勤 4 天及以上，可连续实习 3 个月以上。 3、专业基础：掌握半导体器件及集成电路基础知识，了解芯片可靠性测试或失效分析基本原理。 4、能力素质：具备基础数据处理与报告编写能力，工作认真细致，责任心强，具有良好的沟通协作能力。 5、加分项：了解 AEC-Q100、JEDEC 等标准，或有可靠性测试、burn-in、芯片失效分析及实验室项目经验者优先。",
+      "major_evidence": "教育背景：本科及以上在读，微电子、材料、自动化、电子工程等相关专业",
       "degree_requirement": "本科及以上",
       "graduation_requirement": "未说明",
       "attendance_requirement": "实习时间：每周出勤 4 天及以上，可连续实习 3 个月",
@@ -119,9 +119,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=20991&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：工艺 / 测试",
@@ -129,7 +129,7 @@
       ],
       "match_grade": "A",
       "major_eligibility": "JD专业要求明确包含材料/冶金相关专业",
-      "major_evidence": "任职要求： 学历与专业：在读硕士研究生，光学工程、材料科学、物理或相关专业； 掌握光学原理或材料特性基础知识； 学习意愿强，乐于在实验室环境开展实操工作； 具备良好的英语沟通能力； 善于运用AI工具提升工作效率。",
+      "major_evidence": "学历与专业：在读硕士研究生，光学工程、材料科学、物理或相关专业",
       "jd_source_url": "https://www.focuslight.com/vacancy_details?post_id=20991&lang=cn",
       "degree_requirement": "硕士研究生",
       "graduation_requirement": "未说明",
@@ -199,9 +199,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=21366&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：刻蚀 / 工艺",
@@ -209,7 +209,7 @@
       ],
       "match_grade": "A",
       "major_eligibility": "JD专业要求明确包含材料/冶金相关专业",
-      "major_evidence": "任职要求: 教育背景 理工科相关专业本科及硕士学历（包括微电子科学与工程、材料科学与工程、电子科学与技术、干法刻蚀工艺工程、微光学制造工程等相关专业）； 专业知识与能力 了解干法刻蚀尤其是反应离子刻蚀（RIE）的基本原理与工艺流程，熟悉干法刻蚀设备基本结构者优先； 熟练使用Word、Excel、PowerPoint等基础办公软件，可完成数据记录、整理及报告撰写工作，有数据分析软件或人工智能使用经验者优先； 愿意从事现场干法刻蚀操作及设备维护工作，能够严格遵守公司安全操作规范与刻蚀设备操作准则； 具备良好的英语读写能力，能够读懂干法刻蚀、RIE技术及光学微透镜相关专业英文文献资料； 具备较强的学习能力、实操能力与动手操作能力。 基本素质 责任心强、工作细致严谨，对待工艺数据与设备操作态度严肃审慎； 具备良好的沟通能力与团队协作意识，能够配合工程团队完成工艺调试、设备维护等相关工作； 工作积极主动，愿意学习干法刻蚀与RIE技术相关专业知识，能够适应光学微透镜现场生产与研发工作节奏。 加分项: 具备干法刻蚀、反应离子刻蚀（RIE）或光学微制造领域相关实习经验，熟悉相关设备操作流程； 熟悉RIE干法刻蚀机或相关检测仪器的操作，能够独立完成基础设备操作工作； 参与过干法刻蚀、RIE技术、光学微透镜相关科研项目或发表过相关论文者优先。",
+      "major_evidence": "教育背景 理工科相关专业本科及硕士学历（包括微电子科学与工程、材料科学与工程、电子科学与技术、干法刻蚀工艺工程、微光学制造工程等相关专业）",
       "jd_source_url": "https://www.focuslight.com/vacancy_details?post_id=21366&lang=cn",
       "degree_requirement": "本科",
       "graduation_requirement": "未说明",
@@ -282,9 +282,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=21368&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：工艺",
@@ -292,7 +292,7 @@
       ],
       "match_grade": "B",
       "major_eligibility": "JD包含相关理工科专业且职责相关；材料硕士资格需HR确认",
-      "major_evidence": "任职要求: 教育背景 理工科相关专业本科、硕士或博士学历（包括电子科学与技术、微电子科学与工程、光电信息科学与工程、光子学与光通信、激光技术与工程等相关专业）； 专业知识与能力 了解半导体激光器原理、产品结构及核心工艺制造的相关原理与流程； 熟练使用Word、Excel、PowerPoint等基础办公软件，可完成数据记录、整理及报告撰写工作，有数据分析软件或人工智能使用经验者优先； 愿意从事现场工艺操作及设备维护工作，能够严格遵守公司安全操作规范； 具备良好的英语读写能力，能够读懂半导体激光工艺操作及相关设备使用的专业英文文档； 具备较强的学习能力、实操能力与动手操作能力。 基本素质 责任心强、工作细致严谨，对待研发工作、工艺数据和设备操作秉持严肃审慎的工作态度； 具备良好的沟通能力与团队协作意识，能够紧密配合研发及工程团队完成产品研发与工艺优化工作； 工作积极主动，愿意学习半导体激光产品研发与工艺制造相关专业知识，能够适配现场生产与研发工作节奏。 加分项: 拥有半导体激光器产品研发、半导体工艺制造（外延、光刻、刻蚀）或光电器件领域相关实习经验； 熟悉键合设备或相关检测仪器的操作，能够独立完成基础操作工作； 参与过半导体激光器、半导体材料、半导体工艺相关科研项目或发表过相关论文者优先。",
+      "major_evidence": "教育背景 理工科相关专业本科、硕士或博士学历（包括电子科学与技术、微电子科学与工程、光电信息科学与工程、光子学与光通信、激光技术与工程等相关专业）",
       "jd_source_url": "https://www.focuslight.com/vacancy_details?post_id=21368&lang=cn",
       "degree_requirement": "本科",
       "graduation_requirement": "未说明",
@@ -307,6 +307,76 @@
       "industry": "半导体",
       "priority_direction": "半导体材料/工艺",
       "priority_order": 0,
+      "jd_verified": true
+    },
+    {
+      "id": "web:46b1eaded5b13be0",
+      "first_seen": "2026-11-02T05:05:50+08:00",
+      "events": [
+        {
+          "at": "2026-11-02T05:05:50+08:00",
+          "from": null,
+          "to": "unverified",
+          "evidence": {
+            "state": "unverified",
+            "url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
+            "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
+            "method": "web-detail",
+            "checked_at": "2026-11-02T05:05:50+08:00"
+          }
+        }
+      ],
+      "company": "北京汽车研究总院有限公司",
+      "title": "AI新材料设计工程师（实习）",
+      "location": "None 北京市",
+      "url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
+      "jd_source_url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
+      "jd_source_note": "2026-11-02核对LinkedIn职位页（注明来源猎聘），尚无企业官方职位级投递证据。该页面写明材料相关专业，但材料计算软件、PyTorch、DFT/MD实操等要求须核实；实习期限与截止日期以官方为准。仅待核实，不认定新开放。",
+      "description": "该职位来源于猎聘 工作地点：[北京] 实习周期：≥ 6 个月，每周 ≥ 4 天 学历：硕士 / 博士在读 ## 职位概述 用 AI 驱动新材料的发现与设计（AI for Materials），覆盖固态电解质、正负极材料、轻量化高强度车身材料，以及更广泛的高能量密度材料和功能器件。你将参与\"计算筛选 → 生成设计 → 性能预测 → 实验验证\"的闭环研发，缩短材料研发周期。 ## 岗位职责 1. 构建和维护材料数据库，整合 Materials Project、OQMD、ICSD、文献数据和内部实验数据，完成数据清洗与特征工程。 2. 开发和应用材料性质预测模型，例如图神经网络（CGCNN、MEGNet、M3GNet、MACE 等）、机器学习势函数，预测离子电导率、电压平台、形成能、带隙、力学性能等关键指标。 3. 参与材料生成式设计，用扩散模型、生成模型或大语言模型做成分与晶体结构的逆向设计，比如 MatterGen、CDVAE、DiffCSP 一类方法。 4. 做第一性原理计算（DFT）和分子动力学（MD）模拟，为 AI 模型提供高精度数据，并验证候选材料。 5. 面向具体应用开展研究：<br><br><ul><li> 固态电池：硫化物、氧化物、卤化物电解质的离子输运和界面稳定性</li><li> 正负极材料：高镍、富锂锰基、硅基负极、锂金属负极等</li><li> 车身材料：轻量化合金、复合材料的强度、韧性、耐腐蚀性能优化</li><li> 高能量密度材料与物理器件：结构设计和多物理场性能评估 6. 与实验团队合作，设计主动学习 / 贝叶斯优化实验方案，推动\"计算—实验\"闭环迭代。 7. 撰写技术报告，参与论文和专利撰写。 ## 任职要求 1. 材料科学、化学、物理、电化学、计算材料学、计算机等相关专业。 2. 熟练使用 Python，熟悉 pymatgen、ASE 等材料计算工具包中的至少一种。 3. 掌握机器学习基础，有 PyTorch 使用经验，了解图神经网络。 4. 有第一性原理计算（VASP、Quantum ESPRESSO、CP2K 等）或分子动力学（LAMMPS 等）的实际经验。 5. 理解材料结构与性能的基本关系，具备晶体学、热力学或电化学基础。 6. 能独立查阅文献，有较强的科研分析能力。 ## 加分项 - 有电池材料、合金或复合材料方向的研究经历。 - 用过机器学习势函数（DeePMD、NequIP、MACE、CHGNet 等）或材料生成模型。 - 熟悉高通量计算工作流（AiiDA、FireWorks、atomate 等）。 - 有贝叶斯优化、主动学习或自动化实验平台经验。 - 在材料、化学或 AI 相关期刊、会议发表过论文。 - 有实验合成或表征经验（XRD、SEM、电化学测试等），能理解计算与实验之间的差距。 ## 补充信息 我们提供： - 有竞争力的实习薪资和餐补 - 算力资源和实验平台支持 - 资深导师一对一指导，有机会参与论文和专利产出 - 表现优秀者可获得转正机会 招聘截止日期 2027年06月01日 实习要求实习3-6个月,每周4-5天 招聘人数10人</li></ul>",
+      "conditions": "任职要求 1. 材料科学、化学、物理、电化学、计算材料学、计算机等相关专业。 2. 熟练使用 Python，熟悉 pymatgen、ASE 等材料计算工具包中的至少一种。 3. 掌握机器学习基础，有 PyTorch 使用经验，了解图神经网络。 4. 有第一性原理计算（VASP、Quantum ESPRESSO、CP2K 等）或分子动力学（LAMMPS 等）的实际经验。 5. 理解材料结构与性能的基本关系，具备晶体学、热力学或电化学基础。 6. 能独立查阅文献，有较强的科研分析能力。 ## 加分项 - 有电池材料、合金或复合材料方向的研究经历。 - 用过机器学习势函数（DeePMD、NequIP、MACE、CHGNet 等）或材料生成模型。 - 熟悉高通量计算工作流（AiiDA、FireWorks、atomate 等）。 - 有贝叶斯优化、主动学习或自动化实验平台经验。 - 在材料、化学或 AI 相关期刊、会议发表过论文。 - 有实验合成或表征经验（XRD、SEM、电化学测试等），能理解计算与实验之间的差距。 ## 补充信息 我们提供： - 有竞争力的实习薪资和餐补 - 算力资源和实验平台支持 - 资深导师一对一指导，有机会参与论文和专利产出 - 表现优秀者可获得转正机会 招聘截止日期 2027年06月01日 实习要求实习3-6个月,每周4-5天 招聘人数10人</li></ul>",
+      "note": "材料专业明确列入，专业适配证据强；技能缺口：pymatgen/ASE、PyTorch/GNN、DFT或MD实际经验未获证明，不能认定全部满足；职位级官方开放状态待核实。",
+      "source": "web",
+      "deadline": "2026-11-29",
+      "status": "unverified",
+      "evidence": {
+        "state": "unverified",
+        "url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
+        "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
+        "method": "web-detail",
+        "checked_at": "2026-11-02T05:10:50+08:00"
+      },
+      "last_checked": "2026-11-02T05:10:50+08:00",
+      "score": 85,
+      "reasons": [
+        "北京岗位",
+        "岗位方向：ai新材料"
+      ],
+      "match_grade": "A",
+      "major_eligibility": "JD专业要求明确包含材料/冶金相关专业",
+      "major_evidence": "材料科学、化学、物理、电化学、计算材料学、计算机等相关专业",
+      "degree_requirement": "未说明",
+      "graduation_requirement": "未说明",
+      "attendance_requirement": "实习周期：≥ 6 个月",
+      "language_requirement": "未说明",
+      "hard_skills": [
+        "Python",
+        "pymatgen",
+        "ASE",
+        "机器学习",
+        "PyTorch",
+        "VASP",
+        "LAMMPS",
+        "XRD",
+        "SEM"
+      ],
+      "skill_fit": "Python/机器学习/材料实验经历可作为基础；JD其他技能仍须逐项核实",
+      "skill_gaps": [
+        "到岗要求需本人确认",
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
+      ],
+      "industry": "汽车",
+      "priority_direction": "材料+AI/工艺数据",
+      "priority_order": 1,
       "jd_verified": true
     },
     {
@@ -338,9 +408,9 @@
         "url": "https://career.mercedes-benz.com.cn/recruiting/company/13687/job/219928/job-detail",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 85,
       "reasons": [
         "北京岗位",
@@ -406,16 +476,16 @@
       "posted": "2026-08-12",
       "conditions": "任职资格： 对半导体行业具有浓厚兴趣 具备良好的分析能力、学习能力及解决问题能力 良好的沟通能力和团队合作精神 具备良好的英文读写能力，能够阅读英文技术资料 熟练使用Office等常用办公软件 Additional Information Time Type: Part time Employee Type: Intern / Student Travel: No Relocation Eligible: No Applied Materials is an Equal Opportunity Employer. Qualified applicants will receive consideration for employment without regard to race, color, national origin, citizenship, ancestry, religion, creed, sex, sexual orientation, gender identity, age, disability, veteran or military status, or any other basis prohibited by law.",
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://amat.wd1.myworkdayjobs.com/wday/cxs/amat/External/job/ShanghaiCHN/-Customer-Engineer-Intern-_R2625965",
         "excerpt": "官方职位接口返回 requisition=R2625965；存在申请入口。任职资格： 对半导体行业具有浓厚兴趣 具备良好的分析能力、学习能力及解决问题能力 良好的沟通能力和团队合作精神 具备良好的英文读写能力，能够阅读英文技术资料 熟练使用Office等常用办公软件 Additional Information Time Type: Part time Employee Type: Intern / Student Travel: No Relocation Eligible: No Applied Materials is an Equal Opportunity Employer. Qualified applicants will receive consideration for employment without regard to race, color, national origin, citizenship, ancestry, religion, creed, sex, sexual orientation, gender identity, age, disability, veteran or military status, or any other basis prohibited by law.",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 65,
       "reasons": [
         "北京岗位",
@@ -471,9 +541,9 @@
         "url": "https://m.yupao.com/y/389813681.html",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 65,
       "reasons": [
         "北京岗位",
@@ -481,7 +551,7 @@
       ],
       "match_grade": "B",
       "major_eligibility": "JD包含相关理工科专业且职责相关；材料硕士资格需HR确认",
-      "major_evidence": "任职资格：硕士及以上学历，机械、电气、机电一体化等相关专业；Office、CAD；工作日到岗，连续实习不少于6个月。信息来自第三方职位聚合页，需官方JD复核。",
+      "major_evidence": "硕士及以上学历，机械、电气、机电一体化等相关专业",
       "degree_requirement": "硕士及以上",
       "graduation_requirement": "未说明",
       "attendance_requirement": "实习不少于6个月",
@@ -555,9 +625,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=20993&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：测试",
@@ -565,7 +635,7 @@
       ],
       "match_grade": "B",
       "major_eligibility": "JD包含相关理工科专业且职责相关；材料硕士资格需HR确认",
-      "major_evidence": "任职要求： 学历与专业：在读本科或硕士研究生，光学工程、物理、电气工程、自动化或相关专业； 实操能力突出，愿意在实验室环境工作，具备光纤对准、光学频谱分析仪、功率计、示波器使用或焊接相关经验； 熟悉至少一门编程语言（Python、C#/C++或LabVIEW）； 具备良好的英语读写及口语能力。 加分项： 掌握微光学元件（如透镜、波导、滤光片、光栅）基础认知； 具备自动化硬件（如运动控制器、数据采集设备、PLC可编程逻辑控制器）使用经验； 熟悉版本控制系统（如Git）或数据分析工具（如MATLAB、Python pandas）； 有实验室或工业领域实习或项目经验。",
+      "major_evidence": "学历与专业：在读本科或硕士研究生，光学工程、物理、电气工程、自动化或相关专业",
       "jd_source_url": "https://www.focuslight.com/vacancy_details?post_id=20993&lang=cn",
       "degree_requirement": "本科",
       "graduation_requirement": "未说明",
@@ -639,9 +709,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=21364&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：镀膜",
@@ -649,7 +719,7 @@
       ],
       "match_grade": "A",
       "major_eligibility": "JD专业要求明确包含材料/冶金相关专业",
-      "major_evidence": "任职要求: 教育背景 理工科相关专业本科及硕士学历（包含材料科学与工程、材料物理、表面工程、真空镀膜技术、薄膜材料等相关专业）； 专业知识与能力 了解蒸发镀膜、磁控溅射镀膜的基本原理与工艺流程，熟悉相关设备基本结构者优先； 熟练使用Word、Excel、PowerPoint等基础办公软件，可完成数据记录、整理及报告撰写工作，有数据分析软件或人工智能使用经验者优先； 愿意从事现场镀膜操作及设备维护工作，能够严格遵守公司安全操作规范与真空设备操作准则； 具备良好的英语读写能力，可读懂蒸发镀膜相关专业英文资料； 具备较强的学习能力、实操能力与动手操作能力。 基本素质 责任心强、工作细致严谨，对待工艺数据与设备操作态度严肃审慎； 具备良好的沟通能力与团队协作意识，能够配合工程团队完成工艺调试、设备维护等相关工作； 工作积极主动，愿意学习蒸发镀膜、磁控溅射镀膜相关专业知识，能够适应现场生产与研发工作节奏。 加分项： 具备蒸发镀膜、磁控溅射镀膜或金属表面处理相关实习经验，熟悉相关设备操作流程； 熟悉蒸发镀膜机、磁控溅射镀膜机或膜厚仪、附着力测试仪等相关检测设备操作，能够独立完成基础设备操作工作。",
+      "major_evidence": "教育背景 理工科相关专业本科及硕士学历（包含材料科学与工程、材料物理、表面工程、真空镀膜技术、薄膜材料等相关专业）",
       "jd_source_url": "https://www.focuslight.com/vacancy_details?post_id=21364&lang=cn",
       "degree_requirement": "本科",
       "graduation_requirement": "未说明",
@@ -697,16 +767,16 @@
         "url": "https://www.zhaopin.com/zhaopin/851bacaed13b41eb83e71c356b03f985/",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 50,
       "reasons": [
         "北京岗位"
       ],
       "match_grade": "B",
       "major_eligibility": "JD包含相关理工科专业且职责相关；材料硕士资格需HR确认",
-      "major_evidence": "任职资格：本科及以上学历，机械制造、工业工程、电气自动化等相关专业优先考虑；熟悉MES、ERP、BOM、PLM；具备数据分析和数字化意识。信息来自第三方职位聚合页，需官方JD复核。",
+      "major_evidence": "本科及以上学历，机械制造、工业工程、电气自动化等相关专业优先考虑",
       "degree_requirement": "本科及以上",
       "graduation_requirement": "未说明",
       "attendance_requirement": "未说明",
@@ -753,9 +823,9 @@
         "url": "https://career.hebut.edu.cn/correcruit/content/id/80926.html",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 50,
       "reasons": [
         "北京岗位"
@@ -833,9 +903,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=20989&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 30,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -858,65 +928,6 @@
       "priority_direction": "设备/汽车工程或其他",
       "priority_order": 2,
       "jd_verified": true
-    },
-    {
-      "id": "web:46b1eaded5b13be0",
-      "first_seen": "2026-11-02T05:05:50+08:00",
-      "events": [
-        {
-          "at": "2026-11-02T05:05:50+08:00",
-          "from": null,
-          "to": "unverified",
-          "evidence": {
-            "state": "unverified",
-            "url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
-            "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
-            "method": "web-detail",
-            "checked_at": "2026-11-02T05:05:50+08:00"
-          }
-        }
-      ],
-      "company": "北京汽车研究总院有限公司",
-      "title": "AI新材料设计工程师（实习）",
-      "location": "None 北京市",
-      "url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
-      "jd_source_url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
-      "jd_source_note": "2026-11-02核对LinkedIn职位页（注明来源猎聘），尚无企业官方职位级投递证据。该页面写明材料相关专业，但材料计算软件、PyTorch、DFT/MD实操等要求须核实；实习期限与截止日期以官方为准。仅待核实，不认定新开放。",
-      "description": "该职位来源于猎聘 工作地点：[北京] 实习周期：≥ 6 个月，每周 ≥ 4 天 学历：硕士 / 博士在读 ## 职位概述 用 AI 驱动新材料的发现与设计（AI for Materials），覆盖固态电解质、正负极材料、轻量化高强度车身材料，以及更广泛的高能量密度材料和功能器件。你将参与\"计算筛选 → 生成设计 → 性能预测 → 实验验证\"的闭环研发，缩短材料研发周期。 ## 岗位职责 1. 构建和维护材料数据库，整合 Materials Project、OQMD、ICSD、文献数据和内部实验数据，完成数据清洗与特征工程。 2. 开发和应用材料性质预测模型，例如图神经网络（CGCNN、MEGNet、M3GNet、MACE 等）、机器学习势函数，预测离子电导率、电压平台、形成能、带隙、力学性能等关键指标。 3. 参与材料生成式设计，用扩散模型、生成模型或大语言模型做成分与晶体结构的逆向设计，比如 MatterGen、CDVAE、DiffCSP 一类方法。 4. 做第一性原理计算（DFT）和分子动力学（MD）模拟，为 AI 模型提供高精度数据，并验证候选材料。 5. 面向具体应用开展研究：<br><br><ul><li> 固态电池：硫化物、氧化物、卤化物电解质的离子输运和界面稳定性</li><li> 正负极材料：高镍、富锂锰基、硅基负极、锂金属负极等</li><li> 车身材料：轻量化合金、复合材料的强度、韧性、耐腐蚀性能优化</li><li> 高能量密度材料与物理器件：结构设计和多物理场性能评估 6. 与实验团队合作，设计主动学习 / 贝叶斯优化实验方案，推动\"计算—实验\"闭环迭代。 7. 撰写技术报告，参与论文和专利撰写。 ## 任职要求 1. 材料科学、化学、物理、电化学、计算材料学、计算机等相关专业。 2. 熟练使用 Python，熟悉 pymatgen、ASE 等材料计算工具包中的至少一种。 3. 掌握机器学习基础，有 PyTorch 使用经验，了解图神经网络。 4. 有第一性原理计算（VASP、Quantum ESPRESSO、CP2K 等）或分子动力学（LAMMPS 等）的实际经验。 5. 理解材料结构与性能的基本关系，具备晶体学、热力学或电化学基础。 6. 能独立查阅文献，有较强的科研分析能力。 ## 加分项 - 有电池材料、合金或复合材料方向的研究经历。 - 用过机器学习势函数（DeePMD、NequIP、MACE、CHGNet 等）或材料生成模型。 - 熟悉高通量计算工作流（AiiDA、FireWorks、atomate 等）。 - 有贝叶斯优化、主动学习或自动化实验平台经验。 - 在材料、化学或 AI 相关期刊、会议发表过论文。 - 有实验合成或表征经验（XRD、SEM、电化学测试等），能理解计算与实验之间的差距。 ## 补充信息 我们提供： - 有竞争力的实习薪资和餐补 - 算力资源和实验平台支持 - 资深导师一对一指导，有机会参与论文和专利产出 - 表现优秀者可获得转正机会 招聘截止日期 2027年06月01日 实习要求实习3-6个月,每周4-5天 招聘人数10人</li></ul>",
-      "conditions": "任职要求 1. 材料科学、化学、物理、电化学、计算材料学、计算机等相关专业。 2. 熟练使用 Python，熟悉 pymatgen、ASE 等材料计算工具包中的至少一种。 3. 掌握机器学习基础，有 PyTorch 使用经验，了解图神经网络。 4. 有第一性原理计算（VASP、Quantum ESPRESSO、CP2K 等）或分子动力学（LAMMPS 等）的实际经验。 5. 理解材料结构与性能的基本关系，具备晶体学、热力学或电化学基础。 6. 能独立查阅文献，有较强的科研分析能力。 ## 加分项 - 有电池材料、合金或复合材料方向的研究经历。 - 用过机器学习势函数（DeePMD、NequIP、MACE、CHGNet 等）或材料生成模型。 - 熟悉高通量计算工作流（AiiDA、FireWorks、atomate 等）。 - 有贝叶斯优化、主动学习或自动化实验平台经验。 - 在材料、化学或 AI 相关期刊、会议发表过论文。 - 有实验合成或表征经验（XRD、SEM、电化学测试等），能理解计算与实验之间的差距。 ## 补充信息 我们提供： - 有竞争力的实习薪资和餐补 - 算力资源和实验平台支持 - 资深导师一对一指导，有机会参与论文和专利产出 - 表现优秀者可获得转正机会 招聘截止日期 2027年06月01日 实习要求实习3-6个月,每周4-5天 招聘人数10人</li></ul>",
-      "note": "材料专业明确列入，专业适配证据强；技能缺口：pymatgen/ASE、PyTorch/GNN、DFT或MD实际经验未获证明，不能认定全部满足；职位级官方开放状态待核实。",
-      "source": "web",
-      "deadline": "2026-11-29",
-      "status": "unverified",
-      "evidence": {
-        "state": "unverified",
-        "url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
-        "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
-        "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
-      },
-      "last_checked": "2026-11-02T05:05:50+08:00",
-      "score": 85,
-      "reasons": [
-        "北京岗位",
-        "岗位方向：ai新材料"
-      ],
-      "match_grade": "U",
-      "major_eligibility": "未获取可核验的JD任职/专业要求；专业资格待核实",
-      "major_evidence": "未说明/待核实",
-      "degree_requirement": "未说明",
-      "graduation_requirement": "未说明",
-      "attendance_requirement": "实习周期：≥ 6 个月",
-      "language_requirement": "未说明",
-      "hard_skills": [],
-      "skill_fit": "Python/机器学习/材料实验经历可作为基础；JD其他技能仍须逐项核实",
-      "skill_gaps": [
-        "到岗要求需本人确认"
-      ],
-      "industry": "汽车",
-      "priority_direction": "材料+AI/工艺数据",
-      "priority_order": 1,
-      "jd_verified": false
     },
     {
       "id": "web:479a3c9ec84a7ca8",
@@ -947,9 +958,9 @@
         "url": "https://www.shixiseng.com/intern/inn_cp2b76aql4xb",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 85,
       "reasons": [
         "北京岗位",
@@ -1000,9 +1011,9 @@
         "url": "https://www.lixiang.com/employ/detail/20617.html",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 85,
       "reasons": [
         "北京岗位",
@@ -1064,16 +1075,16 @@
       "posted": "2026-08-06",
       "conditions": "Requirements:\n\n- Bachelor or Master student in EE or relative majors\n- Good Communication skills both in Mandarine and English\n- Team work sprit More information about NXP in Greater China... #LI-dc07",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/XMLNAME-2027-Intern---Field-Quality-Engineer-Intern_R-10065018",
         "excerpt": "官方职位接口返回 requisition=R-10065018；存在申请入口。Requirements:\n\n- Bachelor or Master student in EE or relative majors\n- Good Communication skills both in Mandarine and English\n- Team work sprit More information about NXP in Greater China... #LI-dc07",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：quality",
@@ -1124,9 +1135,9 @@
         "url": "https://xiaomi.jobs.f.mioffice.cn/internship/position/7657025805281200420/detail",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 50,
       "reasons": [
         "北京岗位"
@@ -1208,9 +1219,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Shanghai/Firmware-and-Development-Tools-Intern_JR0287536",
         "excerpt": "职位接口 HTTP 404；不能据此认定关闭",
         "method": "workday-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 40,
       "reasons": [
         "北京岗位",
@@ -1231,7 +1242,8 @@
       ],
       "skill_fit": "Python/机器学习/材料实验经历可作为基础；JD其他技能仍须逐项核实",
       "skill_gaps": [
-        "CUDA/GPU/C++底层能力缺乏证明"
+        "CUDA/GPU/C++底层能力缺乏证明",
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
       ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
@@ -1297,9 +1309,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Shanghai/AI-GPU-Arch-Perf-Optimization-Intern_JR0287915",
         "excerpt": "职位接口 HTTP 404；不能据此认定关闭",
         "method": "workday-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 40,
       "reasons": [
         "北京岗位",
@@ -1396,9 +1408,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Beijing/AI-GPU-Arch-Perf-Analysis-Intern_JR0287928",
         "excerpt": "职位接口 HTTP 404；不能据此认定关闭",
         "method": "workday-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 40,
       "reasons": [
         "北京岗位",
@@ -1421,7 +1433,8 @@
       ],
       "skill_fit": "未证明核心技能匹配",
       "skill_gaps": [
-        "CUDA/GPU/C++底层能力缺乏证明"
+        "CUDA/GPU/C++底层能力缺乏证明",
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
       ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
@@ -1468,16 +1481,16 @@
       "posted": "2026-10-28",
       "conditions": "Qualifications: Minimum Qualifications \n- Bachelor's degree in Computer Science, Software Engineering, or a related field, with 0-1 years of hands-on experience in the domain, including demonstrated skills gained through internships, academic projects, coursework, or hands-on training, OR a Master's degree in a relevant field with no prior professional experience. \n- Proficiency in Python or C++ for AI software development and debugging. \n- Solid understanding of deep learning fundamentals, including large language models (LLMs). \n- Familiarity with model compression techniques such as quantization and pruning. \n- Knowledge of AI frameworks l",
       "recommended_at": "2026-10-29T08:34:44+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288692",
         "excerpt": "官方职位接口返回 requisition=JR0288692；存在申请入口。Qualifications: Minimum Qualifications \n- Bachelor's degree in Computer Science, Software Engineering, or a related field, with 0-1 years of hands-on experience in the domain, including demonstrated skills gained through internships, academic projects, coursework, or hands-on training, OR a Master's degree in a relevant field with no prior professional experience. \n- Proficiency in Python or C++ for AI software development and debugging. \n- Solid understanding of deep learning fundamentals, including large language models (LLMs). \n- Familiarity with model compression techniques such as quantization and pruning. \n- Knowledge of AI frameworks l",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 40,
       "reasons": [
         "北京岗位",
@@ -1494,11 +1507,13 @@
       "language_requirement": "未说明",
       "hard_skills": [
         "Python",
-        "C++"
+        "C++",
+        "PyTorch"
       ],
       "skill_fit": "未证明核心技能匹配",
       "skill_gaps": [
-        "CUDA/GPU/C++底层能力缺乏证明"
+        "CUDA/GPU/C++底层能力缺乏证明",
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
       ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
@@ -1545,16 +1560,16 @@
       "posted": "2026-08-06",
       "conditions": "Requirements: \n\n- ​Major in computer science, electronic engineering or equivalent\n- Good communication skills and fluent English read/write/speak capability. More information about NXP in Greater China... #LI-dc07",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Shanghai-JingAn/XMLNAME-2027-Intern---Field-Quality-Engineer-Intern_R-10065019",
         "excerpt": "官方职位接口返回 requisition=R-10065019；存在申请入口。Requirements: \n\n- ​Major in computer science, electronic engineering or equivalent\n- Good communication skills and fluent English read/write/speak capability. More information about NXP in Greater China... #LI-dc07",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 35,
       "reasons": [
         "岗位方向：quality"
@@ -1615,16 +1630,16 @@
       "posted": "2026-07-22",
       "conditions": "Scope of Responsibilities/Expectations:\nThe person will learn basic knowledge of quality complaint handling and quality improvement methodology in the semiconductor industry, and will take part in several utility software development projects aiming at improving the way of working and integrity of the BL quality team.\n\nResponsibilities Include:\n- Involved in the development of a locally implemented process tracking utility, designing solutions for new features, adding enhancement to existing functions.\n- Involved in the development of utility software projects which include, but are not limited to, local office automation, data scraping and m",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Tianjin-DAC/XMLNAME-2027-Intern---Customer-Quality-Engineer-Intern_R-10065020-1",
         "excerpt": "官方职位接口返回 requisition=R-10065020；存在申请入口。Scope of Responsibilities/Expectations:\nThe person will learn basic knowledge of quality complaint handling and quality improvement methodology in the semiconductor industry, and will take part in several utility software development projects aiming at improving the way of working and integrity of the BL quality team.\n\nResponsibilities Include:\n- Involved in the development of a locally implemented process tracking utility, designing solutions for new features, adding enhancement to existing functions.\n- Involved in the development of utility software projects which include, but are not limited to, local office automation, data scraping and m",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 35,
       "reasons": [
         "岗位方向：quality"
@@ -1685,16 +1700,16 @@
       "posted": "2026-10-08",
       "conditions": "Qualifications: The experienced candidate requires a Masters or PhD in Operations Research, Industrial Engineering, Systems Engineering, Computer Science, Management Science or related discipline such as Machine Learning or Mathematics with a focus on deterministic/stochastic optimization modelling and programming. Additional qualifications include: Solid operation research knowledge, especially Linear programming, etc. Familiarity with Production Scheduling will be a plus Programming experience in C# or Python Knowledge of database management systems, such as SQL Server, would be an added advantage Good understanding on supply chain manageme",
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Shanghai/Operations-Research-Engineer-Intern_JR0286945",
         "excerpt": "官方职位接口返回 requisition=JR0286945；存在申请入口。Qualifications: The experienced candidate requires a Masters or PhD in Operations Research, Industrial Engineering, Systems Engineering, Computer Science, Management Science or related discipline such as Machine Learning or Mathematics with a focus on deterministic/stochastic optimization modelling and programming. Additional qualifications include: Solid operation research knowledge, especially Linear programming, etc. Familiarity with Production Scheduling will be a plus Programming experience in C# or Python Knowledge of database management systems, such as SQL Server, would be an added advantage Good understanding on supply chain manageme",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -1712,7 +1727,9 @@
         "SQL"
       ],
       "skill_fit": "Python/机器学习/材料实验经历可作为基础；JD其他技能仍须逐项核实",
-      "skill_gaps": [],
+      "skill_gaps": [
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
+      ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
       "priority_order": 2,
@@ -1758,16 +1775,16 @@
       "posted": "2026-10-12",
       "conditions": "Requirements Currently pursuing a bachelor’s or master’s degree in electrical engineering, electronic engineering, power electronics, or a related field. Basic understanding of power electronics, including common AC/DC and DC/DC power-conversion topologies. Strong research, analytical, and data-collection skills, with the ability to work independently. Proficiency in PowerPoint and Excel. Good written and verbal communication skills in both Chinese and English. Preferred Qualifications Knowledge of wide-bandgap semiconductor technologies, including SiC or GaN. Academic, project, or internship experience related to AI data centers, automotive ",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Shanghai-JingAn/XMLNAME-2026-Intern---Product-Marketing---DES_R-10058896-1",
         "excerpt": "官方职位接口返回 requisition=R-10058896；存在申请入口。Requirements Currently pursuing a bachelor’s or master’s degree in electrical engineering, electronic engineering, power electronics, or a related field. Basic understanding of power electronics, including common AC/DC and DC/DC power-conversion topologies. Strong research, analytical, and data-collection skills, with the ability to work independently. Proficiency in PowerPoint and Excel. Good written and verbal communication skills in both Chinese and English. Preferred Qualifications Knowledge of wide-bandgap semiconductor technologies, including SiC or GaN. Academic, project, or internship experience related to AI data centers, automotive ",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -1830,16 +1847,16 @@
       "posted": "2025-09-01",
       "conditions": "requirements or specifications into technical solutions based on Power Platform. Supporting business users on application incidents/ changes requested on SW environment applications and infrastructure. Work with project managers to analyze business requirements, research system processes, data usage and workflows (including: requirements analysis, blueprint design, business process optimization, program design, user training, system testing and rollout). Utilize continuous improvement techniques including data and process examination to determine root cause and drive improvements. Qualifications: Pursuing in bachelor or master degree. Major i",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Tianjin-Xinghua/XMLNAME-2026-Intern---Information-System-Engineer_R-10059867",
         "excerpt": "官方职位接口返回 requisition=R-10059867；存在申请入口。requirements or specifications into technical solutions based on Power Platform. Supporting business users on application incidents/ changes requested on SW environment applications and infrastructure. Work with project managers to analyze business requirements, research system processes, data usage and workflows (including: requirements analysis, blueprint design, business process optimization, program design, user training, system testing and rollout). Utilize continuous improvement techniques including data and process examination to determine root cause and drive improvements. Qualifications: Pursuing in bachelor or master degree. Major i",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -1854,7 +1871,9 @@
       "language_requirement": "English",
       "hard_skills": [],
       "skill_fit": "Python/机器学习/材料实验经历可作为基础；JD其他技能仍须逐项核实",
-      "skill_gaps": [],
+      "skill_gaps": [
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
+      ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
       "priority_order": 2,
@@ -1900,16 +1919,16 @@
       "posted": "2026-07-03",
       "conditions": "Requirements Master in mic ro-e lectronics, electronic engineering or relevant disciplines. Basic knowledge in analog/mixed-signal IP design , verification and validation flow; Familiar with design EDA tool: Cadence Virtuoso, Hspice/Spectre, Calibre, Matlab, QRC , etc. Experience in LDO/ DCDC/ Data-Conversion / Clocking / OPAMP design is a plus Good communication skills and teamwork for global projects support; More information about NXP in Greater China... #LI-d6f4",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Suzhou/XMLNAME-2027-Intern---Analog-Design-Engineer_R-10064635",
         "excerpt": "官方职位接口返回 requisition=R-10064635；存在申请入口。Requirements Master in mic ro-e lectronics, electronic engineering or relevant disciplines. Basic knowledge in analog/mixed-signal IP design , verification and validation flow; Familiar with design EDA tool: Cadence Virtuoso, Hspice/Spectre, Calibre, Matlab, QRC , etc. Experience in LDO/ DCDC/ Data-Conversion / Clocking / OPAMP design is a plus Good communication skills and teamwork for global projects support; More information about NXP in Greater China... #LI-d6f4",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -1972,16 +1991,16 @@
       "posted": "2026-07-03",
       "conditions": "Requirements Master in micro-electronics, electronic engineering or relevant disciplines. Basic knowledge in analog/mixed-signal IP design , verification and validation flow; Familiar with design EDA tool: Cadence Virtuoso, Hspice/Spectre, Calibre, Matlab, QRC , etc. Experience in LDO/ DCDC/ Data-Conversion / Clocking / OPAMP design is a plus Good communication skills and teamwork for global projects support; More information about NXP in Greater China... #LI-d6f4",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Suzhou/XMLNAME-2027-Intern---Analog-Design-Engineer_R-10064636",
         "excerpt": "官方职位接口返回 requisition=R-10064636；存在申请入口。Requirements Master in micro-electronics, electronic engineering or relevant disciplines. Basic knowledge in analog/mixed-signal IP design , verification and validation flow; Familiar with design EDA tool: Cadence Virtuoso, Hspice/Spectre, Calibre, Matlab, QRC , etc. Experience in LDO/ DCDC/ Data-Conversion / Clocking / OPAMP design is a plus Good communication skills and teamwork for global projects support; More information about NXP in Greater China... #LI-d6f4",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2063,9 +2082,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Shanghai-Pudong/AI-Develop-Intern_R-10066739",
         "excerpt": "职位接口 HTTP 403；不能据此认定关闭",
         "method": "workday-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2126,16 +2145,16 @@
       "posted": "2026-09-23",
       "conditions": "Requirements: 1) master student in Electrical Engineering 2) understanding of analog and mixed signal design 3) Familiar with design/simulation/verification tools More information about NXP in Greater China... #LI-6650",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Tianjin-Teda/Analog-Mixed-Signal-Design-Intern_R-10066740",
         "excerpt": "官方职位接口返回 requisition=R-10066740；存在申请入口。Requirements: 1) master student in Electrical Engineering 2) understanding of analog and mixed signal design 3) Familiar with design/simulation/verification tools More information about NXP in Greater China... #LI-6650",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2196,16 +2215,16 @@
       "posted": "2026-09-23",
       "conditions": "Qualifications Currently pursuing a Bachelor's or Master's degree in Computer Science, Artificial Intelligence, Data Science, Software Engineering, or related fields. Experience with Python programming. Familiarity with Generative AI, LLMs, AI agents, RAG systems, or workflow automation tools. Understanding of software development and data analysis fundamentals. Strong problem-solving and communication skills. Ability to work onsite at least 4 days per week. Internship Duration Planned duration: 2 quarters Target onboarding: ASAP More information about NXP in Greater China... #LI-6650",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Tianjin-Teda/R-D-Project-Management---Productivity-Intern_R-10066761",
         "excerpt": "官方职位接口返回 requisition=R-10066761；存在申请入口。Qualifications Currently pursuing a Bachelor's or Master's degree in Computer Science, Artificial Intelligence, Data Science, Software Engineering, or related fields. Experience with Python programming. Familiarity with Generative AI, LLMs, AI agents, RAG systems, or workflow automation tools. Understanding of software development and data analysis fundamentals. Strong problem-solving and communication skills. Ability to work onsite at least 4 days per week. Internship Duration Planned duration: 2 quarters Target onboarding: ASAP More information about NXP in Greater China... #LI-6650",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2268,16 +2287,16 @@
       "posted": "2026-09-23",
       "conditions": "Requirements: -Currently pursuing a Master’s degree in Electrical Engineering, Electronics, Computer Engineering, Computer Science or a related discipline. -Hands-on experience from ASIC EDA tools, SoC design projects, internships, coursework, or student competitions is a plus. -Familiar with SoC digital design, verification, programming, EDA tools; willingness to learn quickly is important. -Strong foundation in engineering fundamentals, problem solving, testing, and technical documentation. -Able to collaborate with cross-functional teams and communicate technical ideas clearly. -Good communication skills in English (written and spoken). Mo",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Tianjin-Teda/DFT-Verification-intern_R-10066777",
         "excerpt": "官方职位接口返回 requisition=R-10066777；存在申请入口。Requirements: -Currently pursuing a Master’s degree in Electrical Engineering, Electronics, Computer Engineering, Computer Science or a related discipline. -Hands-on experience from ASIC EDA tools, SoC design projects, internships, coursework, or student competitions is a plus. -Familiar with SoC digital design, verification, programming, EDA tools; willingness to learn quickly is important. -Strong foundation in engineering fundamentals, problem solving, testing, and technical documentation. -Able to collaborate with cross-functional teams and communicate technical ideas clearly. -Good communication skills in English (written and spoken). Mo",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2357,9 +2376,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Tianjin-Teda/XMLNAME-2027-Intern---STA-agent-developer-Intern_R-10066785",
         "excerpt": "职位接口 HTTP 403；不能据此认定关闭",
         "method": "workday-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2376,7 +2395,9 @@
         "Python"
       ],
       "skill_fit": "未证明核心技能匹配",
-      "skill_gaps": [],
+      "skill_gaps": [
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
+      ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
       "priority_order": 2,
@@ -2422,16 +2443,16 @@
       "posted": "2026-10-21",
       "conditions": "Job Description: Support Power Management IC products in Automotive, Industrial and IOT applications Participate in customer technical support with leading by NXP application engineers: reproduce failures of customer founding, manual programming OTP, set up test bench for lab validation. Develop and debug automation test bench such as efficiency validation, fault injection test etc. Create and modify English or Chinese documentation for customer usage. Qualification: Pursuing in bachelor’s or master’s degree, majored in EE. Have background on Analog electrical circuit, Digital electrical circuit. Have skills and knowledge on one coding langua",
       "recommended_at": "2026-10-22T07:52:56+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Tianjin-Weiwu/System---Application-Intern_R-10067316",
         "excerpt": "官方职位接口返回 requisition=R-10067316；存在申请入口。Job Description: Support Power Management IC products in Automotive, Industrial and IOT applications Participate in customer technical support with leading by NXP application engineers: reproduce failures of customer founding, manual programming OTP, set up test bench for lab validation. Develop and debug automation test bench such as efficiency validation, fault injection test etc. Create and modify English or Chinese documentation for customer usage. Qualification: Pursuing in bachelor’s or master’s degree, majored in EE. Have background on Analog electrical circuit, Digital electrical circuit. Have skills and knowledge on one coding langua",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2509,9 +2530,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Shanghai-China/Software-Engineering-Intern_2641426",
         "excerpt": "官方职位接口返回 requisition=2641426；存在申请入口。Minimum Qualifications 1.\tCurrently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2.\tFamiliar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3.\tSolid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4.\tExperience with projects related to AI / LLM / AI Agents is preferred. 5.\tStrong problem-solving, analytical, and debugging skills. 6.\tFluent in English, with good communication skills, teamwork spirit, and a proactive, self-drive",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -2519,7 +2540,7 @@
         "偏软件 / 芯片设计，材料专业需核对技能门槛"
       ],
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "match_grade": "C",
       "major_eligibility": "JD存在专业或核心技能门槛冲突，不能直接视为材料专业可投",
       "major_evidence": "Minimum Qualifications 1. Currently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2. Familiar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3. Solid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4. Experience with projects related to AI / LLM / AI Agents is preferred. 5. Strong problem-solving, analytical, and debugging skills. 6. Fluent in English, with good communication skills, teamwork spirit, and a proactive, self-driven attitude. About KLA We provide advanced inspection tools, metrology systems, process solutions, and computational analytics that make electronics possible, tackling complex challenges. From electron",
@@ -2596,9 +2617,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Shanghai-China/Software-Engineering-Intern_2641428",
         "excerpt": "官方职位接口返回 requisition=2641428；存在申请入口。Minimum Qualifications 1.\tCurrently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2.\tFamiliar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3.\tSolid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4.\tExperience with projects related to AI / LLM / AI Agents is preferred. 5.\tStrong problem-solving, analytical, and debugging skills. 6.\tFluent in English, with good communication skills, teamwork spirit, and a proactive, self-drive",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -2606,7 +2627,7 @@
         "偏软件 / 芯片设计，材料专业需核对技能门槛"
       ],
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "match_grade": "C",
       "major_eligibility": "JD存在专业或核心技能门槛冲突，不能直接视为材料专业可投",
       "major_evidence": "Minimum Qualifications 1. Currently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2. Familiar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3. Solid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4. Experience with projects related to AI / LLM / AI Agents is preferred. 5. Strong problem-solving, analytical, and debugging skills. 6. Fluent in English, with good communication skills, teamwork spirit, and a proactive, self-driven attitude. About KLA We provide advanced inspection tools, metrology systems, process solutions, and computational analytics that make electronics possible, tackling complex challenges. From electron",
@@ -2683,9 +2704,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Shanghai-China/Software-Engineering-Intern_2641431",
         "excerpt": "官方职位接口返回 requisition=2641431；存在申请入口。Minimum Qualifications 1.\tCurrently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2.\tFamiliar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3.\tSolid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4.\tExperience with projects related to AI / LLM / AI Agents is preferred. 5.\tStrong problem-solving, analytical, and debugging skills. 6.\tFluent in English, with good communication skills, teamwork spirit, and a proactive, self-drive",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -2693,7 +2714,7 @@
         "偏软件 / 芯片设计，材料专业需核对技能门槛"
       ],
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "match_grade": "C",
       "major_eligibility": "JD存在专业或核心技能门槛冲突，不能直接视为材料专业可投",
       "major_evidence": "Minimum Qualifications 1. Currently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2. Familiar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3. Solid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4. Experience with projects related to AI / LLM / AI Agents is preferred. 5. Strong problem-solving, analytical, and debugging skills. 6. Fluent in English, with good communication skills, teamwork spirit, and a proactive, self-driven attitude. About KLA We provide advanced inspection tools, metrology systems, process solutions, and computational analytics that make electronics possible, tackling complex challenges. From electron",
@@ -2770,9 +2791,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Shanghai-China/Software-Engineering-Intern_2641432",
         "excerpt": "官方职位接口返回 requisition=2641432；存在申请入口。Minimum Qualifications 1.\tCurrently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2.\tFamiliar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3.\tSolid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4.\tExperience with projects related to AI / LLM / AI Agents is preferred. 5.\tStrong problem-solving, analytical, and debugging skills. 6.\tFluent in English, with good communication skills, teamwork spirit, and a proactive, self-drive",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -2780,7 +2801,7 @@
         "偏软件 / 芯片设计，材料专业需核对技能门槛"
       ],
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "match_grade": "C",
       "major_eligibility": "JD存在专业或核心技能门槛冲突，不能直接视为材料专业可投",
       "major_evidence": "Minimum Qualifications 1. Currently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2. Familiar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3. Solid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4. Experience with projects related to AI / LLM / AI Agents is preferred. 5. Strong problem-solving, analytical, and debugging skills. 6. Fluent in English, with good communication skills, teamwork spirit, and a proactive, self-driven attitude. About KLA We provide advanced inspection tools, metrology systems, process solutions, and computational analytics that make electronics possible, tackling complex challenges. From electron",
@@ -2857,9 +2878,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Shanghai-China/Software-Engineering-Intern_2641433",
         "excerpt": "官方职位接口返回 requisition=2641433；存在申请入口。Minimum Qualifications 1.\tCurrently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2.\tFamiliar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3.\tSolid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4.\tExperience with projects related to AI / LLM / AI Agents is preferred. 5.\tStrong problem-solving, analytical, and debugging skills. 6.\tFluent in English, with good communication skills, teamwork spirit, and a proactive, self-drive",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -2867,7 +2888,7 @@
         "偏软件 / 芯片设计，材料专业需核对技能门槛"
       ],
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "match_grade": "C",
       "major_eligibility": "JD存在专业或核心技能门槛冲突，不能直接视为材料专业可投",
       "major_evidence": "Minimum Qualifications 1. Currently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2. Familiar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3. Solid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4. Experience with projects related to AI / LLM / AI Agents is preferred. 5. Strong problem-solving, analytical, and debugging skills. 6. Fluent in English, with good communication skills, teamwork spirit, and a proactive, self-driven attitude. About KLA We provide advanced inspection tools, metrology systems, process solutions, and computational analytics that make electronics possible, tackling complex challenges. From electron",
@@ -2944,9 +2965,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Shanghai-China/Software-Engineering-Intern_2641434",
         "excerpt": "官方职位接口返回 requisition=2641434；存在申请入口。Minimum Qualifications 1.\tCurrently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2.\tFamiliar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3.\tSolid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4.\tExperience with projects related to AI / LLM / AI Agents is preferred. 5.\tStrong problem-solving, analytical, and debugging skills. 6.\tFluent in English, with good communication skills, teamwork spirit, and a proactive, self-drive",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -2954,7 +2975,7 @@
         "偏软件 / 芯片设计，材料专业需核对技能门槛"
       ],
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "match_grade": "C",
       "major_eligibility": "JD存在专业或核心技能门槛冲突，不能直接视为材料专业可投",
       "major_evidence": "Minimum Qualifications 1. Currently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2. Familiar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3. Solid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4. Experience with projects related to AI / LLM / AI Agents is preferred. 5. Strong problem-solving, analytical, and debugging skills. 6. Fluent in English, with good communication skills, teamwork spirit, and a proactive, self-driven attitude. About KLA We provide advanced inspection tools, metrology systems, process solutions, and computational analytics that make electronics possible, tackling complex challenges. From electron",
@@ -3011,16 +3032,16 @@
       "description": "岗位职责： 协助进行 OA 系统英文版本翻译工作； 协助进行 OA 系统问题海外支持工作； 在指导下完成简单的 OA 系统流程及数据维护。 任职要求： 学历与专业：英语专业、计算机专业； 专业知识与技能：英语专业 4 级及以上；熟悉常用办公软件，如 Word、Excel、Powerpoint；具备良好的学习能力及沟通交流能力。",
       "conditions": "任职要求： 学历与专业：英语专业、计算机专业； 专业知识与技能：英语专业 4 级及以上；熟悉常用办公软件，如 Word、Excel、Powerpoint；具备良好的学习能力及沟通交流能力。",
       "recommended_at": "2026-10-24T07:44:05+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://www.focuslight.com/vacancy_details?post_id=23586&lang=cn",
         "excerpt": "本轮官方招聘列表仍列出此职位；详情标题相符，存在该职位的官方申请指引。任职要求： 学历与专业：英语专业、计算机专业； 专业知识与技能：英语专业 4 级及以上；熟悉常用办公软件，如 Word、Excel、Powerpoint；具备良好的学习能力及沟通交流能力。",
         "method": "official-list-and-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 0,
       "reasons": [
         "半导体 / 汽车行业实习，专业资格需逐项核对"
@@ -3080,23 +3101,23 @@
       "description": "岗位职责： 协助全球采购数据与 NPI 分析； 协助 FLCH 委外业务执行、收货、发票、付款及采购异常接口。 任职要求： 学历与专业：供应链管理、英语、工业工程等相关专业； 专业知识与技能：英语专业 4 级及以上，口语优；具备良好的数据分析能力，AI 使用能力，学习能力及团队协作能力。",
       "conditions": "任职要求： 学历与专业：供应链管理、英语、工业工程等相关专业； 专业知识与技能：英语专业 4 级及以上，口语优；具备良好的数据分析能力，AI 使用能力，学习能力及团队协作能力。",
       "recommended_at": "2026-10-24T07:44:05+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://www.focuslight.com/vacancy_details?post_id=23588&lang=cn",
         "excerpt": "本轮官方招聘列表仍列出此职位；详情标题相符，存在该职位的官方申请指引。任职要求： 学历与专业：供应链管理、英语、工业工程等相关专业； 专业知识与技能：英语专业 4 级及以上，口语优；具备良好的数据分析能力，AI 使用能力，学习能力及团队协作能力。",
         "method": "official-list-and-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 0,
       "reasons": [
         "半导体 / 汽车行业实习，专业资格需逐项核对"
       ],
       "match_grade": "U",
       "major_eligibility": "JD未明确证明材料专业合格或相关理工科资格；待核实",
-      "major_evidence": "任职要求： 学历与专业：供应链管理、英语、工业工程等相关专业； 专业知识与技能：英语专业 4 级及以上，口语优；具备良好的数据分析能力，AI 使用能力，学习能力及团队协作能力。",
+      "major_evidence": "学历与专业：供应链管理、英语、工业工程等相关专业",
       "jd_source_url": "https://www.focuslight.com/vacancy_details?post_id=23588&lang=cn",
       "degree_requirement": "未说明",
       "graduation_requirement": "未说明",
@@ -3152,16 +3173,16 @@
       "posted": "2026-09-23",
       "conditions": "Qualifications:\n- Studying in major in Mechanical, Electrical, HVAC or other engineering bachelor degree or above, with major in Mechanical, Electrical, HVAC or other engineering\n- Good communication and willing to learn, ability to work under pressure and work with careful\n- Good ability in English, base in Tianjin is preferred More information about NXP in Greater China... #LI-6650",
       "recommended_at": "2026-10-20T17:44:36+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Tianjin-Weiwu/XMLNAME-2027-Intern---Facility-Student-Intern_R-10064116",
         "excerpt": "官方职位接口返回 requisition=R-10064116；存在申请入口。Qualifications:\n- Studying in major in Mechanical, Electrical, HVAC or other engineering bachelor degree or above, with major in Mechanical, Electrical, HVAC or other engineering\n- Good communication and willing to learn, ability to work under pressure and work with careful\n- Good ability in English, base in Tianjin is preferred More information about NXP in Greater China... #LI-6650",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": 0,
       "reasons": [
         "半导体 / 汽车行业实习，专业资格需逐项核对"
@@ -3176,7 +3197,9 @@
       "language_requirement": "English",
       "hard_skills": [],
       "skill_fit": "未证明核心技能匹配",
-      "skill_gaps": [],
+      "skill_gaps": [
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
+      ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
       "priority_order": 2,
@@ -3241,9 +3264,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Shanghai/AI-Software-Engineering-Graduate-Intern_JR0287917",
         "excerpt": "职位接口 HTTP 404；不能据此认定关闭",
         "method": "workday-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": -10,
       "reasons": [
         "任职条件提及硕士 / 研究生",
@@ -3258,10 +3281,13 @@
       "attendance_requirement": "未说明",
       "language_requirement": "未说明",
       "hard_skills": [
-        "Python"
+        "Python",
+        "PyTorch"
       ],
       "skill_fit": "未证明核心技能匹配",
-      "skill_gaps": [],
+      "skill_gaps": [
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
+      ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
       "priority_order": 2,
@@ -3324,16 +3350,16 @@
         "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Shanghai/Compiler-Engineering-Intern_JR0287941",
         "excerpt": "官方职位接口返回 requisition=JR0287941；存在申请入口。Qualifications: Minimum Qualifications •\tCurrently pursuing a Bachelor or Master's degree in Computer Science, Computer Engineering, Electrical Engineering, Applied Mathematics, or a related technical discipline. •\tGraduate-level coursework, research, or project experience in compilers, programming languages, computer architecture, parallel computing, systems software, or a closely related area. •\tExperience programming in C or C++ and working with complex software systems. •\tExperience designing experiments, analyzing technical results, and communicating conclusions. Preferred Qualifications •\tHands-on experience with LLVM or related compile",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": -10,
       "reasons": [
         "任职条件提及硕士 / 研究生",
         "偏软件 / 芯片设计，材料专业需核对技能门槛"
       ],
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "match_grade": "C",
       "major_eligibility": "JD存在专业或核心技能门槛冲突，不能直接视为材料专业可投",
       "major_evidence": "Qualifications: Minimum Qualifications • Currently pursuing a Bachelor or Master's degree in Computer Science, Computer Engineering, Electrical Engineering, Applied Mathematics, or a related technical discipline. • Graduate-level coursework, research, or project experience in compilers, programming languages, computer architecture, parallel computing, systems software, or a closely related area. • Experience programming in C or C++ and working with complex software systems. • Experience designing experiments, analyzing technical results, and communicating conclusions. Preferred Qualifications • Hands-on experience with LLVM or related compiler infrastructure, including front-end development, intermediate representations, optimization passes, code generation, runtimes, or debug information. • Research or development experience involving CP",
@@ -3344,11 +3370,13 @@
       "language_requirement": "未说明",
       "hard_skills": [
         "C++",
-        "CUDA"
+        "CUDA",
+        "PyTorch"
       ],
       "skill_fit": "Python/机器学习/材料实验经历可作为基础；JD其他技能仍须逐项核实",
       "skill_gaps": [
-        "CUDA/GPU/C++底层能力缺乏证明"
+        "CUDA/GPU/C++底层能力缺乏证明",
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
       ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
@@ -3412,16 +3440,16 @@
         "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Shanghai/Software-Engineering-Intern_JR0288193",
         "excerpt": "官方职位接口返回 requisition=JR0288193；存在申请入口。Qualifications: Required: - Postgraduate of Computer Engineering, Computer Science, Electrical Engineering or Software College. - Programming experience with C/C++ in Linux and/or Windows environments. - Familiarity with Operating Systems and Computer Architecture (and/or Intel CPU architectures) - Working knowledge of shell scripts and the GNU tool chain on Linux and familiarity, and Microsoft Visual C++ build environment. - Collaboration skills and the ability to work in a team environment. Preferred: - Knowledge of CPU/GPU architecture, multi-threading, vectorization. - Ability to debug large applications that may include parallel programm",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": -10,
       "reasons": [
         "任职条件提及硕士 / 研究生",
         "偏软件 / 芯片设计，材料专业需核对技能门槛"
       ],
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "match_grade": "C",
       "major_eligibility": "JD存在专业或核心技能门槛冲突，不能直接视为材料专业可投",
       "major_evidence": "Qualifications: Required: - Postgraduate of Computer Engineering, Computer Science, Electrical Engineering or Software College. - Programming experience with C/C++ in Linux and/or Windows environments. - Familiarity with Operating Systems and Computer Architecture (and/or Intel CPU architectures) - Working knowledge of shell scripts and the GNU tool chain on Linux and familiarity, and Microsoft Visual C++ build environment. - Collaboration skills and the ability to work in a team environment. Preferred: - Knowledge of CPU/GPU architecture, multi-threading, vectorization. - Ability to debug large applications that may include parallel programming technologies. - Knowledge of parallel programming, such as DPC++/CUDA/OpenCL/OpenMP. - Experience with performance tuning and analysis tools. - Experience with parallel programming technologies or",
@@ -3435,7 +3463,9 @@
         "CUDA"
       ],
       "skill_fit": "未证明核心技能匹配",
-      "skill_gaps": [],
+      "skill_gaps": [
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
+      ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
       "priority_order": 2,
@@ -3510,9 +3540,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Shanghai/AI-Application-Development-Intern_JR0288222-1",
         "excerpt": "职位接口 HTTP 404；不能据此认定关闭",
         "method": "workday-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": -10,
       "reasons": [
         "任职条件提及硕士 / 研究生",
@@ -3534,7 +3564,8 @@
       ],
       "skill_fit": "未证明核心技能匹配",
       "skill_gaps": [
-        "CUDA/GPU/C++底层能力缺乏证明"
+        "CUDA/GPU/C++底层能力缺乏证明",
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
       ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
@@ -3598,16 +3629,16 @@
         "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261",
         "excerpt": "官方职位接口返回 requisition=JR0288261；存在申请入口。Qualifications: Basic Requirements Master’s or PhD student in Computer Science, Artificial Intelligence, Software Engineering, or a related field Proficient in Python with solid coding skills and good software engineering practices In-depth understanding of at least one area in deep learning systems or large model inference , including but not limited to: PyTorch / TorchDynamo / FX / Inductor LLM inference workflows (e.g., KV cache, prefill / decode stages) Understanding of large language models beyond API-level usage, including inference behavior, performance bottlenecks, and engineering constraints Strong problem decomposition skills, capab",
         "method": "workday-live-detail",
-        "checked_at": "2026-11-02T05:05:50+08:00"
+        "checked_at": "2026-11-02T05:10:50+08:00"
       },
-      "last_checked": "2026-11-02T05:05:50+08:00",
+      "last_checked": "2026-11-02T05:10:50+08:00",
       "score": -10,
       "reasons": [
         "任职条件提及硕士 / 研究生",
         "偏软件 / 芯片设计，材料专业需核对技能门槛"
       ],
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-02T05:05:50+08:00",
+      "last_confirmed_open": "2026-11-02T05:10:50+08:00",
       "match_grade": "C",
       "major_eligibility": "JD存在专业或核心技能门槛冲突，不能直接视为材料专业可投",
       "major_evidence": "Qualifications: Basic Requirements Master’s or PhD student in Computer Science, Artificial Intelligence, Software Engineering, or a related field Proficient in Python with solid coding skills and good software engineering practices In-depth understanding of at least one area in deep learning systems or large model inference , including but not limited to: PyTorch / TorchDynamo / FX / Inductor LLM inference workflows (e.g., KV cache, prefill / decode stages) Understanding of large language models beyond API-level usage, including inference behavior, performance bottlenecks, and engineering constraints Strong problem decomposition skills, capable of modeling complex engineering problems into executable AI Agent task structures Preferred Qualifications Experience with large model quantization techniques Familiarity with mainstream inference ",
@@ -3617,11 +3648,13 @@
       "attendance_requirement": "internship of at least 4 months",
       "language_requirement": "未说明",
       "hard_skills": [
-        "Python"
+        "Python",
+        "PyTorch"
       ],
       "skill_fit": "未证明核心技能匹配",
       "skill_gaps": [
-        "到岗要求需本人确认"
+        "到岗要求需本人确认",
+        "材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握"
       ],
       "industry": "半导体",
       "priority_direction": "设备/汽车工程或其他",
@@ -3707,7 +3740,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8C%97%E6%96%B9%E5%8D%8E%E5%88%9B+%E4%B8%AD%E8%8A%AF%E5%9B%BD%E9%99%85+%E7%87%95%E4%B8%9C%E5%BE%AE+%E6%9D%90%E6%96%99+%E5%B7%A5%E8%89%BA+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 2,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -3788,7 +3821,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%B1%B9%E5%94%90+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E5%B7%A5%E8%89%BA+%E6%9D%90%E6%96%99+%E5%AE%9E%E4%B9%A0+2026",
       "ok": true,
-      "scanned": 10,
+      "scanned": 9,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -3869,7 +3902,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%A5%94%E9%A9%B0+%E9%94%82%E7%A6%BB%E5%AD%90%E7%94%B5%E6%B1%A0+%E7%94%B5%E8%8A%AF%E7%A0%94%E5%8F%91+%E5%AE%9E%E4%B9%A0+219928",
       "ok": true,
-      "scanned": 10,
+      "scanned": 0,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -3887,7 +3920,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E5%8F%AF%E9%9D%A0%E6%80%A7+%E6%B5%8B%E8%AF%95+%E5%A4%B1%E6%95%88%E5%88%86%E6%9E%90+%E5%AE%9E%E4%B9%A0%E7%94%9F+2026",
       "ok": true,
-      "scanned": 10,
+      "scanned": 0,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
