@@ -12,7 +12,7 @@ DEGREE = re.compile(r"硕士(?:及以上|研究生)?|本科(?:及以上)?|博士
 GRAD = re.compile(r"20(?:2[6-9]|3[0-5])\s*届|20(?:2[6-9]|3[0-5])\s*(?:graduates?|graduation)", re.I)
 ATTEND = re.compile(r"(?:[2-7]\s*[-~至到]\s*[2-7]\s*days\s*/\s*week)|(?:[2-9]\s*months)|暑期须全勤|(?:每周|一周|week(?:ly)?)[^。；;\n]{0,28}?(?:[2-7]\s*[-~至到]\s*[2-7]\s*天|[2-7]\s*天|[2-7]\s*days?)|(?:实习|internship)[^。；;\n]{0,24}?(?:[2-9]\s*个月|[2-9]\s*months?|半年)", re.I)
 LANG = re.compile(r"英语|英文|\bEnglish\b|\bCET[- ]?[46]\b", re.I)
-TECH = re.compile(r"Python|机器学习|数据分析|\bPyTorch\b|\bpymatgen\b|\bASE\b|\bVASP\b|\bLAMMPS\b|\bDFT\b|\bGNN\b|\bSQL\b|\bExcel\b|\bOffice\b|\bCUDA\b|C\+\+|\bMATLAB\b|\bCOMSOL\b|\bANSYS\b|\bAbaqus\b|\bEBSD\b|\bSEM\b|\bXRD\b|\bCAD\b", re.I)
+TECH = re.compile(r"Python|机器学习|数据分析|(?<![A-Za-z0-9_])(?:PyTorch|pymatgen|ASE|VASP|LAMMPS|DFT|GNN)(?![A-Za-z0-9_])|\bSQL\b|\bExcel\b|\bOffice\b|\bCUDA\b|C\+\+|\bMATLAB\b|\bCOMSOL\b|\bANSYS\b|\bAbaqus\b|\bEBSD\b|\bSEM\b|\bXRD\b|\bCAD\b", re.I)
 AUTO = re.compile(r"汽车|整车|车辆|新能源车|动力电池|锂离子电池|电芯|电池研发|动力系统|奔驰|理想汽车|小米汽车|座舱|热管理|\bautomotive\b|\bvehicle\b", re.I)
 SEMI = re.compile(r"半导体|晶圆|芯片|制程|光刻|刻蚀|CMP|\bsemiconductor\b|\bwafer\b|\bPIE\b", re.I)
 
