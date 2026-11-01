@@ -6,13 +6,13 @@ RELATED = re.compile(r"能源与动力|热能工程|动力工程|流体机械|�
 SOFTWARE = re.compile(r"计算机|软件工程|电气工程|电子工程|\bcomputer science\b|\bsoftware engineering\b|\belectrical engineering\b", re.I)
 HARD_LOWLEVEL = re.compile(r"CUDA|GPU|编译器|固件|底层开发|\bcompiler\b|\bfirmware\b|\bC\+\+\b|\bC/C\+\+\b", re.I)
 FIELD = re.compile(r"材料|薄膜|沉积|刻蚀|光刻|CMP|封装|表征|失效|工艺|制程|良率|可靠性|设备|电池|热管理|制造|质量|测试|金属|仿真|\bmaterial\b|\bprocess\b|\betch(?:ing)?\b|deposition|wafer|thermal|battery|quality|metrology|manufactur", re.I)
-SECTION = re.compile(r"专业要求\s*[:：]|任职资格\s*[:：]|任职要求\s*[:：]|岗位要求\s*[:：]|招聘对象\s*[:：]|\b(?:Minimum|Basic|Required|Preferred)\s+Qualifications\b|\bQualifications\b|\bRequirements\b|\bKey\s+Qualifications\b|\bEducation\s*[:：]?", re.I)
+SECTION = re.compile(r"专业要求\s*[:：]|任职资格\s*(?:[:：]|(?=\d+[.、．]))|任职要求\s*(?:[:：]|(?=\d+[.、．]))|岗位要求\s*(?:[:：]|(?=\d+[.、．]))|招聘对象\s*[:：]|\b(?:Minimum|Basic|Required|Preferred)\s+Qualifications\b|\bQualifications\b|\bRequirements\b|\bKey\s+Qualifications\b|\bEducation\s*[:：]?", re.I)
 MAJOR_SECTION = re.compile(r"(?:专业要求|专业背景|所学专业|专业方向|\bMajor\b)\s*[:：]\s*(.{0,240})", re.I)
 DEGREE = re.compile(r"硕士(?:及以上|研究生)?|本科(?:及以上)?|博士(?:及以上)?|\bmaster'?s?\b|\bPh\.?D\.?\b|\bbachelor'?s?\b|\bgraduate student\b", re.I)
 GRAD = re.compile(r"20(?:2[6-9]|3[0-5])\s*届|20(?:2[6-9]|3[0-5])\s*(?:graduates?|graduation)", re.I)
 ATTEND = re.compile(r"(?:[2-7]\s*[-~至到]\s*[2-7]\s*days\s*/\s*week)|(?:[2-9]\s*months)|暑期须全勤|(?:每周|一周|week(?:ly)?)[^。；;\n]{0,28}?(?:[2-7]\s*[-~至到]\s*[2-7]\s*天|[2-7]\s*天|[2-7]\s*days?)|(?:实习|internship)[^。；;\n]{0,24}?(?:[2-9]\s*个月|[2-9]\s*months?|半年)", re.I)
 LANG = re.compile(r"英语|英文|\bEnglish\b|\bCET[- ]?[46]\b", re.I)
-TECH = re.compile(r"Python|机器学习|数据分析|\bSQL\b|\bExcel\b|\bOffice\b|\bCUDA\b|C\+\+|\bMATLAB\b|\bCOMSOL\b|\bANSYS\b|\bAbaqus\b|\bEBSD\b|\bSEM\b|\bXRD\b|\bCAD\b", re.I)
+TECH = re.compile(r"Python|机器学习|数据分析|\bPyTorch\b|\bpymatgen\b|\bASE\b|\bVASP\b|\bLAMMPS\b|\bDFT\b|\bGNN\b|\bSQL\b|\bExcel\b|\bOffice\b|\bCUDA\b|C\+\+|\bMATLAB\b|\bCOMSOL\b|\bANSYS\b|\bAbaqus\b|\bEBSD\b|\bSEM\b|\bXRD\b|\bCAD\b", re.I)
 AUTO = re.compile(r"汽车|整车|车辆|新能源车|动力电池|锂离子电池|电芯|电池研发|动力系统|奔驰|理想汽车|小米汽车|座舱|热管理|\bautomotive\b|\bvehicle\b", re.I)
 SEMI = re.compile(r"半导体|晶圆|芯片|制程|光刻|刻蚀|CMP|\bsemiconductor\b|\bwafer\b|\bPIE\b", re.I)
 
@@ -33,6 +33,16 @@ def classify(job):
     req = qualifications(description)
     major_match = MAJOR_SECTION.search(req)
     major_clause = major_match.group(1) if major_match else ""
+    # Many Chinese job boards use "任职要求 1. 材料科学...相关专业"
+    # without a colon. Read only the first education/major bullet, not
+    # unrelated duties or employer marketing text.
+    if not major_clause:
+        first_bullet = re.search(
+            r"(?:任职要求|任职资格|岗位要求)\\s*[:：]?\\s*(?:\\d+[.、．]\\s*)?([^。；;]{0,180})",
+            req, re.I,
+        )
+        if first_bullet and re.search(r"相关专业|等专业|专业背景|专业不限|不限专业", first_bullet.group(1)):
+            major_clause = first_bullet.group(1)
     if major_clause:
         major_clause = re.split(r"任职资格|岗位职责|技能要求|工作内容|任职要求", major_clause)[0][:200]
     explicit_material = bool(MATERIAL.search(major_clause)) or bool(re.search(r"(?:专业|教育背景|学历(?:要求)?|major|degree)[^。；;]{0,120}(?:材料|冶金|materials?\s+(?:science|engineering)|metallurg|polymer)", req, re.I))
@@ -69,6 +79,8 @@ def classify(job):
     if phd_only: gap.append("JD要求博士")
     if GRAD.search(req + " " + title): gap.append("毕业届别未知，须核实")
     if ATTEND.search(description): gap.append("到岗要求需本人确认")
+    if re.search(r"pymatgen|PyTorch|ASE|VASP|LAMMPS|第一性原理|分子动力学", req, re.I):
+        gap.append("材料计算工具、PyTorch/GNN及DFT/MD实际经验需逐项核实，不推定已掌握")
     return {
         "match_grade":grade, "major_eligibility":major,
         "major_evidence":(major_clause or req[:850]) if req else "未说明/待核实",
