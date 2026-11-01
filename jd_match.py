@@ -38,7 +38,7 @@ def classify(job):
     # unrelated duties or employer marketing text.
     if not major_clause:
         first_bullet = re.search(
-            r"(?:任职要求|任职资格|岗位要求)\\s*[:：]?\\s*(?:\\d+[.、．]\\s*)?([^。；;]{0,180})",
+            r"(?:任职要求|任职资格|岗位要求)\s*[:：]?\s*(?:\d+[.、．]\s*)?([^。；;]{0,180})",
             req, re.I,
         )
         if first_bullet and re.search(r"相关专业|等专业|专业背景|专业不限|不限专业", first_bullet.group(1)):
