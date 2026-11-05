@@ -156,6 +156,22 @@
       "description": "职位概述：面向固态电池、正负极材料、轻量化合金与复合材料，参与材料数据库建设、数据清洗、特征工程、机器学习材料性能预测、生成式材料设计、DFT/MD计算与实验闭环。任职要求：材料科学、化学、物理、电化学、计算材料学、计算机等相关专业。硕士或博士在读。熟练使用Python，熟悉pymatgen或ASE至少一种；有PyTorch经验、了解图神经网络；有VASP、Quantum ESPRESSO、CP2K等DFT或LAMMPS分子动力学实际经验；具备晶体学、热力学或电化学基础；可独立阅读文献。实习至少4天/周，时长页面存在3-6个月与不少于6个月的不同表述，待HR核实。",
       "conditions": "任职要求：材料科学、化学、物理、电化学、计算材料学、计算机等相关专业。硕士或博士在读。熟练使用Python，熟悉pymatgen或ASE至少一种；有PyTorch经验、了解图神经网络；有VASP、Quantum ESPRESSO、CP2K等DFT或LAMMPS分子动力学实际经验。每周至少4天，时长待核实。",
       "note": "材料专业明确列入，专业适配证据强；技能缺口：pymatgen/ASE、PyTorch/GNN、DFT或MD实际经验未获证明，不能认定全部满足；职位级官方开放状态待核实。"
+    },
+    {
+      "id": "bmw-charging-ai-294081",
+      "company": "宝马中国",
+      "title": "Charging Team AI Intern",
+      "location": "北京市顺义区（第三方JD）",
+      "url": "https://www.deizao.net/index/index/shixixq/jobid/294081",
+      "note": "2026-11-06发现：第三方2026-11-03发布；本科或硕士在读、Computer Science/Data Science/Engineering preferred；AI数据预处理与充电业务，英语流利，每周5天、偏好6个月。非官方招聘开放证据，B类待HR确认，必须复核官方职位页与投递状态。"
+    },
+    {
+      "id": "bmw-ev-validation-294837",
+      "company": "宝马中国",
+      "title": "Electric Vehicles Project & Cu",
+      "location": "北京市顺义区（第三方JD）",
+      "url": "https://www.deizao.net/index/index/shixixq/jobid/294837",
+      "note": "2026-11-06发现：第三方2026-11-04发布，电动车验证/充电，11月底入职、每周5天、连续6个月、仅现场；专业条件尚未核实，不评A/B，不认定官方开放。"
     }
   ],
   "official_domains": [
