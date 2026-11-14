@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-11-14T09:14:08+08:00",
+  "updated_at": "2026-11-15T05:03:08+08:00",
   "jobs": {
     "kla:2641431": {
       "id": "kla:2641431",
@@ -3463,6 +3463,18 @@
             "method": "web-detail",
             "checked_at": "2026-10-29T10:33:28+08:00"
           }
+        },
+        {
+          "at": "2026-11-14T14:24:00+08:00",
+          "from": "unverified",
+          "to": "open",
+          "evidence": {
+            "state": "open",
+            "url": "https://career.mercedes-benz.com.cn/recruiting/company/13687/job/219928/job-detail",
+            "excerpt": "企业招聘站职位级详情接口返回ID 219928，申请状态接口 short_id=efDFCX8yS 返回HTTP 200、code=200、show_apply=1；仅确认公开申请入口可见，未提交申请。证据来自2026-11-14招聘状态专项复核。",
+            "method": "official-job-detail-and-apply-status-api",
+            "checked_at": "2026-11-14T14:24:00+08:00"
+          }
         }
       ],
       "company": "梅赛德斯-奔驰",
@@ -3471,15 +3483,15 @@
       "url": "https://career.mercedes-benz.com.cn/recruiting/company/13687/job/219928/job-detail",
       "note": "官方职位URL可定位但JS详情无法独立确认投递开放；JD原文摘录来自得早学就创（第三方转载）。请保留待核实，勿当新开放。",
       "source": "web",
-      "status": "unverified",
+      "status": "open",
       "evidence": {
-        "state": "unverified",
+        "state": "open",
         "url": "https://career.mercedes-benz.com.cn/recruiting/company/13687/job/219928/job-detail",
-        "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
-        "method": "web-detail",
-        "checked_at": "2026-11-14T09:14:08+08:00"
+        "excerpt": "企业招聘站职位级详情接口返回ID 219928，申请状态接口 short_id=efDFCX8yS 返回HTTP 200、code=200、show_apply=1；仅确认公开申请入口可见，未提交申请。证据来自2026-11-14招聘状态专项复核。",
+        "method": "official-job-detail-and-apply-status-api",
+        "checked_at": "2026-11-14T14:24:00+08:00"
       },
-      "last_checked": "2026-11-14T09:14:08+08:00",
+      "last_checked": "2026-11-14T14:24:00+08:00",
       "score": 85,
       "reasons": [
         "北京岗位",
@@ -3503,7 +3515,10 @@
       "priority_order": 2,
       "jd_verified": true,
       "jd_source_note": "JD专业要求来自第三方招聘转载（2026-10-26）；官方具体职位页需JS，投递状态未独立核实；转载截止日不可当作官方确认。",
-      "description": "Intern_Li-ion Battery Cell R&D 锂离子电池电芯研发实习生。 Objectives: Support Li-ion cell technology update analysis through data research, analysis and documentation. Main Tasks: Research, analyze and document Li-ion cell, material and processing technology updates (40%); support cell teardown specifications, benchmarking reports and cell database (40%). Key Qualifications: Basic knowledge of electrochemistry, Li-ion batteries or cells; understanding of cell materials, design, failure analysis, safety or xEV market preferred. Language: Chinese & English proficient. Education: Degree: Bachelor or above. Major: Material, Chemistry or Chemical Engineering. Internship: 6 months, 4-5 days/week."
+      "description": "Intern_Li-ion Battery Cell R&D 锂离子电池电芯研发实习生。 Objectives: Support Li-ion cell technology update analysis through data research, analysis and documentation. Main Tasks: Research, analyze and document Li-ion cell, material and processing technology updates (40%); support cell teardown specifications, benchmarking reports and cell database (40%). Key Qualifications: Basic knowledge of electrochemistry, Li-ion batteries or cells; understanding of cell materials, design, failure analysis, safety or xEV market preferred. Language: Chinese & English proficient. Education: Degree: Bachelor or above. Major: Material, Chemistry or Chemical Engineering. Internship: 6 months, 4-5 days/week.",
+      "recruitment_status": "official_apply_entry_visible",
+      "recruitment_status_note": "官方接口显示申请按钮；未验证登录后投递或名额",
+      "skill_verification_status": "unverified_personal_skills"
     },
     "web:db3752ac2cc82e76": {
       "id": "web:db3752ac2cc82e76",
