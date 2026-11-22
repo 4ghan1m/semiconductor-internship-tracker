@@ -1,8 +1,8 @@
 {
   "schema_version": 1,
-  "id": "20261121T095641949912-44853071627-1",
-  "date": "2026-11-21",
-  "generated_at": "2026-11-21T09:56:41+08:00",
+  "id": "20261122T085335713695-44968813565-1",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T08:53:35+08:00",
   "jobs": [
     {
       "id": "web:d68a77b5d191011b",
@@ -21,13 +21,13 @@
           }
         }
       ],
-      "company": "Beijing Tongfang Microelectronics Company",
+      "company": "北京同方微电子（LinkedIn招聘转载名称）",
       "title": "可靠性实习生",
-      "location": "None 北京市",
+      "location": "北京市",
       "url": "https://cn.linkedin.com/jobs/view/%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%AE%9E%E4%B9%A0%E7%94%9F-at-beijing-tongfang-microelectronics-company-4481409565",
       "jd_source_url": "https://cn.linkedin.com/jobs/view/%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%AE%9E%E4%B9%A0%E7%94%9F-at-beijing-tongfang-microelectronics-company-4481409565",
       "jd_source_note": "2026-10-31从LinkedIn展示的猎聘转载职位级JD取得；未找到企业官方具体职位申请入口，故只能待核实，不得视为开放。",
-      "description": "该职位来源于猎聘 岗位职责： 1、验证支持：协助制订并执行芯片可靠性验证方案，跟进外部供应商测试进度及样品流转。 2、测试协助：配合开展 HTOL、ESD、Latch-Up 等可靠性测试，协助搭建和维护 burn-in 等可靠性筛片环境。 3、数据处理：整理可靠性测试数据及试验记录，协助完成 DPPM、FIT 等相关指标的统计与计算。 4、失效分析：协助定位测试及生产过程中的失效问题，参与样品分析、改善对策跟进及效果验证。 5、文档协作：协助编写可靠性验证及失效分析报告，配合研发、质量和供应商推进相关事项。 任职要求： 1、教育背景：本科及以上在读，微电子、材料、自动化、电子工程等相关专业。 2、实习时间：每周出勤 4 天及以上，可连续实习 3 个月以上。 3、专业基础：掌握半导体器件及集成电路基础知识，了解芯片可靠性测试或失效分析基本原理。 4、能力素质：具备基础数据处理与报告编写能力，工作认真细致，责任心强，具有良好的沟通协作能力。 5、加分项：了解 AEC-Q100、JEDEC 等标准，或有可靠性测试、burn-in、芯片失效分析及实验室项目经验者优先。",
+      "description": "可靠性实习生。岗位职责：协助制定并执行芯片可靠性验证方案，跟进供应商测试与样品流转；配合HTOL、ESD、Latch-Up等测试；整理可靠性数据，计算DPPM、FIT；参与失效分析及改善验证。任职要求：本科及以上在读，微电子、材料、自动化、电子工程等相关专业；每周出勤4天及以上，可连续实习3个月以上；掌握半导体器件及集成电路基础知识，了解可靠性测试或失效分析；具备基础数据处理及报告编写能力。了解AEC-Q100、JEDEC标准或芯片失效分析经验者优先。",
       "note": "职位地点明确北京，JD列材料相关专业，A类专业证据来自第三方转载，招聘状态需官方核实。",
       "source": "web",
       "deadline": "",
@@ -36,11 +36,11 @@
       "evidence": {
         "state": "unverified",
         "url": "https://cn.linkedin.com/jobs/view/%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%AE%9E%E4%B9%A0%E7%94%9F-at-beijing-tongfang-microelectronics-company-4481409565",
-        "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
+        "excerpt": "RetryError：详情读取失败",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 65,
       "reasons": [
         "北京岗位",
@@ -48,10 +48,10 @@
       ],
       "match_grade": "A",
       "major_eligibility": "JD专业要求明确包含材料/冶金相关专业",
-      "major_evidence": "教育背景：本科及以上在读，微电子、材料、自动化、电子工程等相关专业",
+      "major_evidence": "本科及以上在读，微电子、材料、自动化、电子工程等相关专业",
       "degree_requirement": "本科及以上",
       "graduation_requirement": "未说明",
-      "attendance_requirement": "实习时间：每周出勤 4 天及以上，可连续实习 3 个月",
+      "attendance_requirement": "每周出勤4天",
       "language_requirement": "未说明",
       "hard_skills": [],
       "skill_fit": "Python/机器学习/材料实验经历可作为基础；JD其他技能仍须逐项核实",
@@ -120,9 +120,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=20991&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：工艺 / 测试",
@@ -200,9 +200,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=21366&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：刻蚀 / 工艺",
@@ -283,9 +283,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=21368&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：工艺",
@@ -344,9 +344,9 @@
         "url": "https://cn.linkedin.com/jobs/view/ai%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88%EF%BC%88%E5%AE%9E%E4%B9%A0%EF%BC%89-at-%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4483402600",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 100,
       "reasons": [
         "北京岗位",
@@ -433,9 +433,9 @@
         "url": "https://career.mercedes-benz.com.cn/recruiting/company/13687/job/219928/job-detail",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 85,
       "reasons": [
         "北京岗位",
@@ -547,9 +547,9 @@
         "url": "https://amat.wd1.myworkdayjobs.com/en-US/External/job/ShanghaiCHN/-Customer-Engineer-Intern-_R2625965",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 65,
       "reasons": [
         "北京岗位",
@@ -605,9 +605,9 @@
         "url": "https://m.yupao.com/y/389813681.html",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 65,
       "reasons": [
         "北京岗位",
@@ -689,9 +689,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=20993&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：测试",
@@ -773,9 +773,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=21364&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：镀膜",
@@ -831,9 +831,9 @@
         "url": "https://www.zhaopin.com/zhaopin/851bacaed13b41eb83e71c356b03f985/",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "北京岗位"
@@ -887,9 +887,9 @@
         "url": "https://career.hebut.edu.cn/correcruit/content/id/80926.html",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "北京岗位"
@@ -967,9 +967,9 @@
         "url": "https://www.focuslight.com/vacancy_details?post_id=20989&lang=cn",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 30,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -1022,9 +1022,9 @@
         "url": "https://www.shixiseng.com/intern/inn_cp2b76aql4xb",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 85,
       "reasons": [
         "北京岗位",
@@ -1075,9 +1075,9 @@
         "url": "https://www.lixiang.com/employ/detail/20617.html",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 85,
       "reasons": [
         "北京岗位",
@@ -1158,9 +1158,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/XMLNAME-2027-Intern---Field-Quality-Engineer-Intern_R-10065018",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "岗位方向：quality",
@@ -1211,9 +1211,9 @@
         "url": "https://www.deizao.net/index/index/shixixq/jobid/294837",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "北京岗位"
@@ -1263,9 +1263,9 @@
         "url": "https://xiaomi.jobs.f.mioffice.cn/internship/position/7657025805281200420/detail",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "北京岗位"
@@ -1317,9 +1317,9 @@
         "url": "https://www.deizao.net/index/index/shixixq/jobid/294081",
         "excerpt": "页面可读，但未取得足以确认开放 / 关闭的职位级证据；搜索摘要不算开放证明。",
         "method": "web-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 50,
       "reasons": [
         "北京岗位"
@@ -1399,9 +1399,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/Firmware-and-Development-Tools-Intern_JR0287536",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 40,
       "reasons": [
         "北京岗位",
@@ -1489,9 +1489,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-GPU-Arch-Perf-Optimization-Intern_JR0287915",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 40,
       "reasons": [
         "北京岗位",
@@ -1588,9 +1588,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Beijing/AI-GPU-Arch-Perf-Analysis-Intern_JR0287928",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 40,
       "reasons": [
         "北京岗位",
@@ -1680,9 +1680,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288692",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 40,
       "reasons": [
         "北京岗位",
@@ -1795,9 +1795,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Beijing/AI-GPU-Arch-Perf-Analysis-Intern_JR0288972",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 40,
       "reasons": [
         "北京岗位",
@@ -1882,12 +1882,12 @@
       "status": "unverified",
       "evidence": {
         "state": "unverified",
-        "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Shanghai-JingAn/XMLNAME-2027-Intern---Field-Quality-Engineer-Intern_R-10065019",
-        "excerpt": "职位接口 HTTP 422；不能据此认定关闭",
+        "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Shanghai-JingAn/XMLNAME-2027-Intern---Field-Quality-Engineer-Intern_R-10065019",
+        "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 35,
       "reasons": [
         "岗位方向：quality"
@@ -1964,12 +1964,12 @@
       "status": "unverified",
       "evidence": {
         "state": "unverified",
-        "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Tianjin-DAC/XMLNAME-2027-Intern---Customer-Quality-Engineer-Intern_R-10065020-1",
-        "excerpt": "职位接口 HTTP 422；不能据此认定关闭",
+        "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Tianjin-DAC/XMLNAME-2027-Intern---Customer-Quality-Engineer-Intern_R-10065020-1",
+        "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 35,
       "reasons": [
         "岗位方向：quality"
@@ -2037,9 +2037,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-Software-Engineering-Intern_JR0288896",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 25,
       "reasons": [
         "北京岗位",
@@ -2122,9 +2122,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/Operations-Research-Engineer-Intern_JR0286945",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2209,9 +2209,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Shanghai-JingAn/XMLNAME-2026-Intern---Product-Marketing---DES_R-10058896-1",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2293,9 +2293,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Tianjin-Xinghua/XMLNAME-2026-Intern---Information-System-Engineer_R-10059867",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2374,12 +2374,12 @@
       "status": "unverified",
       "evidence": {
         "state": "unverified",
-        "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Suzhou/XMLNAME-2027-Intern---Analog-Design-Engineer_R-10064635",
-        "excerpt": "职位接口 HTTP 422；不能据此认定关闭",
+        "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Suzhou/XMLNAME-2027-Intern---Analog-Design-Engineer_R-10064635",
+        "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2461,9 +2461,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/wday/cxs/nxp/careers/job/Suzhou/XMLNAME-2027-Intern---Analog-Design-Engineer_R-10064636",
         "excerpt": "职位接口 HTTP 422；不能据此认定关闭",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2545,9 +2545,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Shanghai-Pudong/AI-Develop-Intern_R-10066739",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2627,9 +2627,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Tianjin-Teda/Analog-Mixed-Signal-Design-Intern_R-10066740",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2709,9 +2709,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Tianjin-Teda/R-D-Project-Management---Productivity-Intern_R-10066761",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2793,9 +2793,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Tianjin-Teda/DFT-Verification-intern_R-10066777",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2875,9 +2875,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Tianjin-Teda/XMLNAME-2027-Intern---STA-agent-developer-Intern_R-10066785",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -2961,9 +2961,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Tianjin-Weiwu/System---Application-Intern_R-10067316",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 15,
       "reasons": [
         "任职条件提及硕士 / 研究生"
@@ -3101,9 +3101,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Shanghai-China/Software-Engineering-Intern_2641426",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -3224,9 +3224,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Shanghai-China/Software-Engineering-Intern_2641428",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -3347,9 +3347,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Shanghai-China/Software-Engineering-Intern_2641431",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -3470,9 +3470,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Shanghai-China/Software-Engineering-Intern_2641432",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -3569,9 +3569,9 @@
         "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Shanghai-China/Software-Engineering-Intern_2641433",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -3674,6 +3674,18 @@
             "method": "workday-detail",
             "checked_at": "2026-11-17T11:22:25+08:00"
           }
+        },
+        {
+          "at": "2026-11-22T08:53:35+08:00",
+          "from": "unverified",
+          "to": "open",
+          "evidence": {
+            "state": "open",
+            "url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Shanghai-China/Software-Engineering-Intern_2641434",
+            "excerpt": "官方职位接口返回 requisition=2641434；存在申请入口。Minimum Qualifications 1.\tCurrently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2.\tFamiliar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3.\tSolid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4.\tExperience with projects related to AI / LLM / AI Agents is preferred. 5.\tStrong problem-solving, analytical, and debugging skills. 6.\tFluent in English, with good communication skills, teamwork spirit, and a proactive, self-drive",
+            "method": "workday-live-detail",
+            "checked_at": "2026-11-22T08:53:35+08:00"
+          }
         }
       ],
       "source": "kla",
@@ -3686,15 +3698,15 @@
       "description": "To make electronics, you need chips, wafers, transistors, reticles, and... To make these, you must see, test and manufacture them at scale—faster and better than ever before. That's where KLA comes in. Whether you're early in your career or an experienced professional, you'll solve complex challenges, work alongside brilliant minds and help shape the future of technology. Group/Division The Semiconductor Products and Customers (Semi PC) business unit designs, builds and sells KLA’s product portfolio to help chip manufacturers meet high-quality standards for technologies like AI, data centers, automotive and electronic devices. Our inspection, metrology, and analytics systems detect and monitor defects across logic and memory chips, specialty semiconductors, wafers, reticles, advanced packaging, process equipment and materials. We also develop technologies for specialty processes, IC substrates, and PCB manufacturing, including etch and deposition, component inspection, and imaging and analytics.   KLA's Central Engineering organization is made up of nine Centers of Excellence (CoEs) spanning disciplines like automation, motion control, sensors, platform design, and packaging. Each CoE contributes not only technical deliverables but also deep expertise, best practices, and advanced tools that elevate both what we build—and how we build it. What You'll Do In this role, you will play a key part in advancing business priorities by delivering high-impact work across your area of expertise. 1.\tParticipate in company training on relevant software technologies, development tools, and processes. Provide regular work reports and updates. 2.\tSoftware Development Projects: Contribute to the rapid prototype development and testing of semiconductor equipment software for inspection, metrology and data analysis systems. Existing code analysis, refactoring and performance optimization. 3.\tTest Automation Projects: Participate in developing tools for automated testing, deployment, and operations based on CI/CD (Continuous Integration / Continuous Delivery) processes. 4.\tWork at least 3 full days per week, following standard company working hours. 5.\tOutstanding performance during the internship may lead to a full-time offer through campus recruitment. Minimum Qualifications 1.\tCurrently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2.\tFamiliar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3.\tSolid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4.\tExperience with projects related to AI / LLM / AI Agents is preferred. 5.\tStrong problem-solving, analytical, and debugging skills. 6.\tFluent in English, with good communication skills, teamwork spirit, and a proactive, self-driven attitude. About KLA We provide advanced inspection tools, metrology systems, process solutions, and computational analytics that make electronics possible, tackling complex challenges. From electron and photon optics to machine learning and data analytics, we seek perfection at the most fundamental level of matter in the universe. If you want to make electronics that push industries forward and make the world a better place, join us. Use of AI Statement At KLA, our interviews seek to understand your individual skills, problem-solving approach and authentic thinking. To ensure a fair and consistent evaluation, the use of AI, recording tools or other technologies to generate, suggest or provide responses during interviews—whether virtual or in person—is not permitted unless explicitly approved in advance as part of a reasonable accommodation or invited by the interviewer. Use of these tools may interfere with our ability to evaluate your individual qualifications and affect your candidacy. KLA is committed to advancing innovation through responsible AI, and we value candidates who share this mindset. We offer a competitive, family friendly total rewards package. We design our programs to reflect our commitment to an inclusive environment, while ensuring we provide benefits that meet the diverse needs of our employees. KLA is proud to be an equal opportunity employer.",
       "posted": "2026-10-08",
       "conditions": "Minimum Qualifications 1.\tCurrently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2.\tFamiliar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3.\tSolid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4.\tExperience with projects related to AI / LLM / AI Agents is preferred. 5.\tStrong problem-solving, analytical, and debugging skills. 6.\tFluent in English, with good communication skills, teamwork spirit, and a proactive, self-drive",
-      "status": "unverified",
+      "status": "open",
       "evidence": {
-        "state": "unverified",
-        "url": "https://kla.wd1.myworkdayjobs.com/en-US/Search/job/Shanghai-China/Software-Engineering-Intern_2641434",
-        "excerpt": "RetryError：实时详情读取失败",
-        "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "state": "open",
+        "url": "https://kla.wd1.myworkdayjobs.com/wday/cxs/kla/Search/job/Shanghai-China/Software-Engineering-Intern_2641434",
+        "excerpt": "官方职位接口返回 requisition=2641434；存在申请入口。Minimum Qualifications 1.\tCurrently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2.\tFamiliar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3.\tSolid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4.\tExperience with projects related to AI / LLM / AI Agents is preferred. 5.\tStrong problem-solving, analytical, and debugging skills. 6.\tFluent in English, with good communication skills, teamwork spirit, and a proactive, self-drive",
+        "method": "workday-live-detail",
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 5,
       "reasons": [
         "任职条件涉及材料 / 物理 / 化学相关方向",
@@ -3702,7 +3714,7 @@
         "偏软件 / 芯片设计，材料专业需核对技能门槛"
       ],
       "recommended_at": "2026-10-20T17:41:50+08:00",
-      "last_confirmed_open": "2026-11-16T08:40:48+08:00",
+      "last_confirmed_open": "2026-11-22T08:53:35+08:00",
       "match_grade": "C",
       "major_eligibility": "JD存在专业或核心技能门槛冲突，不能直接视为材料专业可投",
       "major_evidence": "Minimum Qualifications 1. Currently enrolled undergraduate or graduate student in Computer Science, Software Engineering, Electronics, Physics, Automation, Mathematics, or related fields. 2. Familiar with programming languages and frameworks, including but not limited to: C/C++/C#/Python/Java/JavaScript/Vue/AngularJS/PHP. 3. Solid knowledge of CS and SW engineering: DSA, multithreading, OOP, design patterns, etc. 4. Experience with projects related to AI / LLM / AI Agents is preferred. 5. Strong problem-solving, analytical, and debugging skills. 6. Fluent in English, with good communication skills, teamwork spirit, and a proactive, self-driven attitude. About KLA We provide advanced inspection tools, metrology systems, process solutions, and computational analytics that make electronics possible, tackling complex challenges. From electron",
@@ -3759,16 +3771,16 @@
       "description": "岗位职责： 协助进行 OA 系统英文版本翻译工作； 协助进行 OA 系统问题海外支持工作； 在指导下完成简单的 OA 系统流程及数据维护。 任职要求： 学历与专业：英语专业、计算机专业； 专业知识与技能：英语专业 4 级及以上；熟悉常用办公软件，如 Word、Excel、Powerpoint；具备良好的学习能力及沟通交流能力。",
       "conditions": "任职要求： 学历与专业：英语专业、计算机专业； 专业知识与技能：英语专业 4 级及以上；熟悉常用办公软件，如 Word、Excel、Powerpoint；具备良好的学习能力及沟通交流能力。",
       "recommended_at": "2026-10-24T07:44:05+08:00",
-      "last_confirmed_open": "2026-11-21T09:56:41+08:00",
+      "last_confirmed_open": "2026-11-22T08:53:35+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://www.focuslight.com/vacancy_details?post_id=23586&lang=cn",
         "excerpt": "本轮官方招聘列表仍列出此职位；详情标题相符，存在该职位的官方申请指引。任职要求： 学历与专业：英语专业、计算机专业； 专业知识与技能：英语专业 4 级及以上；熟悉常用办公软件，如 Word、Excel、Powerpoint；具备良好的学习能力及沟通交流能力。",
         "method": "official-list-and-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 0,
       "reasons": [
         "半导体 / 汽车行业实习，专业资格需逐项核对"
@@ -3828,16 +3840,16 @@
       "description": "岗位职责： 协助全球采购数据与 NPI 分析； 协助 FLCH 委外业务执行、收货、发票、付款及采购异常接口。 任职要求： 学历与专业：供应链管理、英语、工业工程等相关专业； 专业知识与技能：英语专业 4 级及以上，口语优；具备良好的数据分析能力，AI 使用能力，学习能力及团队协作能力。",
       "conditions": "任职要求： 学历与专业：供应链管理、英语、工业工程等相关专业； 专业知识与技能：英语专业 4 级及以上，口语优；具备良好的数据分析能力，AI 使用能力，学习能力及团队协作能力。",
       "recommended_at": "2026-10-24T07:44:05+08:00",
-      "last_confirmed_open": "2026-11-21T09:56:41+08:00",
+      "last_confirmed_open": "2026-11-22T08:53:35+08:00",
       "status": "open",
       "evidence": {
         "state": "open",
         "url": "https://www.focuslight.com/vacancy_details?post_id=23588&lang=cn",
         "excerpt": "本轮官方招聘列表仍列出此职位；详情标题相符，存在该职位的官方申请指引。任职要求： 学历与专业：供应链管理、英语、工业工程等相关专业； 专业知识与技能：英语专业 4 级及以上，口语优；具备良好的数据分析能力，AI 使用能力，学习能力及团队协作能力。",
         "method": "official-list-and-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 0,
       "reasons": [
         "半导体 / 汽车行业实习，专业资格需逐项核对"
@@ -3919,9 +3931,9 @@
         "url": "https://nxp.wd3.myworkdayjobs.com/en-US/careers/job/Tianjin-Weiwu/XMLNAME-2027-Intern---Facility-Student-Intern_R-10064116",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": 0,
       "reasons": [
         "半导体 / 汽车行业实习，专业资格需逐项核对"
@@ -4003,9 +4015,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-Software-Engineering-Graduate-Intern_JR0287917",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": -10,
       "reasons": [
         "任职条件提及硕士 / 研究生",
@@ -4125,9 +4137,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/Compiler-Engineering-Intern_JR0287941",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": -10,
       "reasons": [
         "任职条件提及硕士 / 研究生",
@@ -4227,9 +4239,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/Software-Engineering-Intern_JR0288193",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": -10,
       "reasons": [
         "任职条件提及硕士 / 研究生",
@@ -4324,12 +4336,12 @@
       "status": "unverified",
       "evidence": {
         "state": "unverified",
-        "url": "https://intel.wd1.myworkdayjobs.com/wday/cxs/intel/External/job/PRC-Shanghai/AI-Application-Development-Intern_JR0288222-1",
-        "excerpt": "职位接口 HTTP 404；不能据此认定关闭",
+        "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-Application-Development-Intern_JR0288222-1",
+        "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": -10,
       "reasons": [
         "任职条件提及硕士 / 研究生",
@@ -4452,9 +4464,9 @@
         "url": "https://intel.wd1.myworkdayjobs.com/en-US/External/job/PRC-Shanghai/AI-Software-Engineer-Intern_JR0288261",
         "excerpt": "RetryError：实时详情读取失败",
         "method": "workday-detail",
-        "checked_at": "2026-11-21T09:56:41+08:00"
+        "checked_at": "2026-11-22T08:53:35+08:00"
       },
-      "last_checked": "2026-11-21T09:56:41+08:00",
+      "last_checked": "2026-11-22T08:53:35+08:00",
       "score": -10,
       "reasons": [
         "任职条件提及硕士 / 研究生",
@@ -4536,7 +4548,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E6%9D%90%E6%96%99+%E5%AE%9E%E4%B9%A0%E7%94%9F+%E6%8B%9B%E8%81%98",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4545,7 +4557,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E8%96%84%E8%86%9C+%E5%B7%A5%E8%89%BA+%E8%A1%A8%E5%BE%81+%E5%AE%9E%E4%B9%A0%E7%94%9F+%E6%8B%9B%E8%81%98",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4563,7 +4575,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8C%97%E6%96%B9%E5%8D%8E%E5%88%9B+%E4%B8%AD%E8%8A%AF%E5%9B%BD%E9%99%85+%E7%87%95%E4%B8%9C%E5%BE%AE+%E6%9D%90%E6%96%99+%E5%B7%A5%E8%89%BA+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4572,7 +4584,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E6%B1%BD%E8%BD%A6+%E6%9D%90%E6%96%99%E7%A0%94%E5%8F%91+%E5%AE%9E%E4%B9%A0%E7%94%9F+%E6%8B%9B%E8%81%98",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4581,7 +4593,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E8%BD%A6%E4%BC%81+%E6%9D%90%E6%96%99+%E5%B7%A5%E8%89%BA+%E5%AE%9E%E4%B9%A0%E7%94%9F+%E6%8B%9B%E8%81%98",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4590,7 +4602,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E6%B1%BD%E8%BD%A6+%E7%83%AD%E7%AE%A1%E7%90%86+%E7%83%AD%E4%BB%BF%E7%9C%9F+%E8%83%BD%E6%BA%90%E5%8A%A8%E5%8A%9B+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4599,7 +4611,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8A%A8%E5%8A%9B%E7%94%B5%E6%B1%A0+%E7%94%B5%E5%8C%96%E5%AD%A6+%E6%9D%90%E6%96%99+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4608,7 +4620,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E6%B1%BD%E8%BD%A6+%E5%88%B6%E9%80%A0%E5%B7%A5%E8%89%BA+%E8%B4%A8%E9%87%8F+%E6%B5%8B%E8%AF%95+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4617,7 +4629,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E6%B1%BD%E8%BD%A6+AI+%E6%9D%90%E6%96%99+%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4626,7 +4638,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E7%90%86%E6%83%B3%E6%B1%BD%E8%BD%A6+%E5%B0%8F%E7%B1%B3%E6%B1%BD%E8%BD%A6+%E5%8C%97%E6%B1%BD+%E8%94%9A%E6%9D%A5+%E6%9D%90%E6%96%99+%E5%AE%9E%E4%B9%A0",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4644,7 +4656,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%B1%B9%E5%94%90+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E5%B7%A5%E8%89%BA+%E6%9D%90%E6%96%99+%E5%AE%9E%E4%B9%A0+2026",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4653,7 +4665,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8D%8E%E6%B5%B7%E6%B8%85%E7%A7%91+CMP+%E6%9D%90%E6%96%99+%E5%B7%A5%E8%89%BA+%E5%AE%9E%E4%B9%A0%E7%94%9F+2026",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4662,7 +4674,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E7%87%95%E4%B8%9C%E5%BE%AE+%E4%B8%AD%E8%8A%AF%E5%9B%BD%E9%99%85+%E5%A4%B1%E6%95%88%E5%88%86%E6%9E%90+%E5%8F%AF%E9%9D%A0%E6%80%A7+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4671,7 +4683,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E6%9D%90%E6%96%99%2BAI+%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0+%E5%88%B6%E7%A8%8B+%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4680,7 +4692,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8C%97%E6%96%B9%E5%8D%8E%E5%88%9B+PE+%E5%B7%A5%E7%A8%8B%E5%B8%88+%E5%AE%9E%E4%B9%A0%E7%94%9F+J15415",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4689,7 +4701,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%A5%94%E9%A9%B0+%E7%94%B5%E6%B1%A0%E6%9D%90%E6%96%99+%E7%A0%94%E5%8F%91+%E5%AE%9E%E4%B9%A0%E7%94%9F+2026",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4698,7 +4710,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E6%B1%BD%E8%BD%A6+%E9%87%91%E5%B1%9E+%E9%AB%98%E5%88%86%E5%AD%90+%E6%9D%90%E6%96%99+%E5%B7%A5%E8%89%BA+%E5%8F%AF%E9%9D%A0%E6%80%A7+%E5%AE%9E%E4%B9%A0+2026",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4707,7 +4719,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E8%AE%BE%E5%A4%87+%E7%8E%B0%E5%9C%BA%E6%9C%8D%E5%8A%A1%E5%B7%A5%E7%A8%8B%E5%B8%88+%E5%AE%9E%E4%B9%A0+%E4%BA%A6%E5%BA%84+%E6%9D%90%E6%96%99",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4716,7 +4728,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8D%8A%E5%AF%BC%E4%BD%93+PE+%E5%B7%A5%E8%89%BA%E5%AE%9E%E4%B9%A0%E7%94%9F+J15415+%E5%8C%97%E6%96%B9%E5%8D%8E%E5%88%9B",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4725,7 +4737,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%A5%94%E9%A9%B0+%E9%94%82%E7%A6%BB%E5%AD%90%E7%94%B5%E6%B1%A0+%E7%94%B5%E8%8A%AF%E7%A0%94%E5%8F%91+%E5%AE%9E%E4%B9%A0+219928",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4734,7 +4746,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%90%8C%E6%96%B9%E5%BE%AE%E7%94%B5%E5%AD%90+%E5%8F%AF%E9%9D%A0%E6%80%A7%E5%AE%9E%E4%B9%A0%E7%94%9F+%E6%9D%90%E6%96%99+%E5%A4%B1%E6%95%88%E5%88%86%E6%9E%90+2026",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4743,7 +4755,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E5%8F%AF%E9%9D%A0%E6%80%A7+%E6%B5%8B%E8%AF%95+%E5%A4%B1%E6%95%88%E5%88%86%E6%9E%90+%E5%AE%9E%E4%B9%A0%E7%94%9F+2026",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4752,7 +4764,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E6%9D%90%E6%96%99+%E5%B7%A5%E8%89%BA+%E8%AE%BE%E5%A4%87+%E7%A0%94%E5%8F%91+%E5%AE%9E%E4%B9%A0%E7%94%9F+2026+10%E6%9C%8831",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4761,7 +4773,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8C%97%E6%96%B9%E5%8D%8E%E5%88%9B+PIE%E5%B7%A5%E7%A8%8B%E5%B8%88+%E5%AE%9E%E4%B9%A0%E5%B2%97+J14086+%E7%A1%95%E5%A3%AB",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4770,7 +4782,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8C%97%E6%96%B9%E5%8D%8E%E5%88%9B+PE%E5%B7%A5%E7%A8%8B%E5%B8%88+%E5%AE%9E%E4%B9%A0%E7%94%9F+J15415+%E5%B7%A5%E8%89%BA%E6%95%B0%E6%8D%AE",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4779,7 +4791,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC%E6%B1%BD%E8%BD%A6%E7%A0%94%E7%A9%B6%E6%80%BB%E9%99%A2+AI%E6%96%B0%E6%9D%90%E6%96%99%E8%AE%BE%E8%AE%A1%E5%B7%A5%E7%A8%8B%E5%B8%88+%E5%AE%9E%E4%B9%A0+4483402600",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4788,7 +4800,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E6%9D%90%E6%96%99%E7%A0%94%E5%8F%91+%E5%B7%A5%E8%89%BA+%E5%AE%9E%E4%B9%A0+2026%E5%B9%B411%E6%9C%88",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4797,7 +4809,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+2026%E5%B9%B411%E6%9C%88+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E6%9D%90%E6%96%99+%E8%96%84%E8%86%9C+%E6%B2%89%E7%A7%AF+%E5%88%BB%E8%9A%80+CMP+%E5%B7%A5%E8%89%BA+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4806,7 +4818,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+2026%E5%B9%B411%E6%9C%88+%E6%B1%BD%E8%BD%A6+%E5%8A%A8%E5%8A%9B%E7%94%B5%E6%B1%A0+%E7%83%AD%E7%AE%A1%E7%90%86+%E6%9D%90%E6%96%99%E5%8F%AF%E9%9D%A0%E6%80%A7+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4815,7 +4827,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+2026%E5%B9%B411%E6%9C%88+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E5%88%B6%E7%A8%8B+%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90+%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0+%E5%B7%A5%E8%89%BA%E4%BC%98%E5%8C%96+%E5%AE%9E%E4%B9%A0%E7%94%9F",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4824,7 +4836,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+%E5%A5%94%E9%A9%B0+%E5%AE%98%E6%96%B9+%E5%AE%9E%E4%B9%A0%E7%94%9F+%E7%94%B5%E8%8A%AF+%E7%A0%94%E5%8F%91+%E7%94%B5%E6%B1%A0%E6%9D%90%E6%96%99+2026",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4833,7 +4845,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+2026%E5%B9%B411%E6%9C%88+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E5%AE%9E%E4%B9%A0+%E6%9D%90%E6%96%99+%E8%A1%A8%E5%BE%81+EBSD+SEM+%E5%A4%B1%E6%95%88%E5%88%86%E6%9E%90",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4842,7 +4854,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+2026%E5%B9%B411%E6%9C%88+%E5%8C%97%E6%96%B9%E5%8D%8E%E5%88%9B+%E5%B1%B9%E5%94%90+%E5%8D%8E%E6%B5%B7%E6%B8%85%E7%A7%91+%E7%87%95%E4%B8%9C%E5%BE%AE+%E5%B7%A5%E8%89%BA%E5%AE%9E%E4%B9%A0",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4851,7 +4863,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+2026%E5%B9%B411%E6%9C%88+%E6%96%B0%E8%83%BD%E6%BA%90%E6%B1%BD%E8%BD%A6+%E7%94%B5%E6%B1%A0%E6%9D%90%E6%96%99+%E7%83%AD%E7%AE%A1%E7%90%86+%E5%B7%A5%E8%89%BA%E5%AE%9E%E4%B9%A0",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4860,7 +4872,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+2026%E5%B9%B411%E6%9C%88+%E5%8D%8A%E5%AF%BC%E4%BD%93+%E5%A4%B1%E6%95%88%E5%88%86%E6%9E%90+%E5%8F%AF%E9%9D%A0%E6%80%A7+%E6%9D%90%E6%96%99%E5%B7%A5%E7%A8%8B+%E5%AE%9E%E4%B9%A0+JD",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4869,7 +4881,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+2026%E5%B9%B411%E6%9C%88+%E5%8D%8A%E5%AF%BC%E4%BD%93+CMP+%E8%96%84%E8%86%9C%E6%B2%89%E7%A7%AF+%E5%B7%A5%E8%89%BA%E5%BC%80%E5%8F%91+%E5%AE%9E%E4%B9%A0+%E6%8B%9B%E8%81%98",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     },
@@ -4878,7 +4890,7 @@
       "id": "search",
       "url": "https://www.bing.com/search?format=rss&q=%E5%8C%97%E4%BA%AC+2026%E5%B9%B411%E6%9C%88+%E6%B1%BD%E8%BD%A6+%E6%9D%90%E6%96%99%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0+%E5%B7%A5%E8%89%BA%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90+%E7%83%AD%E7%AE%A1%E7%90%86+%E5%AE%9E%E4%B9%A0",
       "ok": true,
-      "scanned": 10,
+      "scanned": 7,
       "candidates": 0,
       "message": "仅发现线索；逐条访问原始职位详情核实"
     }
